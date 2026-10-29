@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>模型资源查看器 · 岩土工程</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath fill='%235bbdff' d='m20 2 17 10v17L20 39 3 29V12zm0 5L8 14l12 7 12-7zm-13 11v9l11 7V25zm15 7v9l11-7v-9z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./viewer.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three-0.185.1/build/three.module.min.js","three/addons/":"/vendor/three-0.185.1/examples/jsm/"}}</script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m16 2 13 7.5v13L16 30 3 22.5v-13L16 2Zm0 0v13.5m13-6-13 6-13-6m13 6V30"/></svg><div><strong>岩土工程 · 资源工作台</strong><small>GEOTECHNICAL ASSET WORKSPACE</small></div></div>
+    <div class="top-actions"><span class="local-state"><i></i> 本地资源</span><a href="/dashboard" target="_blank" rel="noopener">打开监控平台 ↗</a></div>
+  </header>
+  <main>
+    <div class="page-heading"><div><div class="eyebrow">ASSET EXPLORER <span>/</span> 材质与模型预览</div><h1>模型资源查看器 <span id="total-count">…</span></h1><p>在平台光照下比较材质，找到适合下一层土体的表面。</p></div><button id="export" class="primary" disabled><span aria-hidden="true">↓</span> 导出选择清单 <b id="selected-count">0</b></button></div>
+    <div class="workspace">
+      <aside class="library panel" aria-label="资源目录">
+        <div class="library-top"><h2>资源目录</h2><span id="visible-count">正在读取</span></div>
+        <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜索材质名称…" aria-label="搜索材质名称"></div>
+        <div id="packs" class="pack-list" aria-label="按资源包筛选"></div>
+        <div class="list-toolbar"><span>全部材质 <small>按名称排序</small></span><label><input id="only-selected" type="checkbox">只看已选</label></div>
+        <div id="material-list" class="material-list" aria-label="材质列表"><p class="empty">正在读取资源目录…</p></div>
+        <div class="library-footer"><i></i><span>贴图来自本地 Unity 项目</span></div>
+      </aside>
+      <section class="preview panel" aria-label="三维预览">
+        <div class="preview-top"><div class="section-name"><i></i><h2>实时预览</h2><span id="render-state" role="status">准备中</span></div><button id="compare" class="quiet" aria-pressed="false">对比已选 <span>0/4</span></button></div>
+        <div class="shape-toolbar"><div class="segmented" aria-label="预览形状"><button data-shape="trench" aria-pressed="true">土层剖块</button><button data-shape="sphere" aria-pressed="false">球体</button><button data-shape="slab" aria-pressed="false">平板</button></div><div class="view-actions"><label><input id="autorotate" type="checkbox">自动旋转</label><button id="reset-camera" class="quiet" title="复位视角">↺ 复位</button></div></div>
+        <div id="stage" class="stage"><div class="stage-tag"><i></i> 平台同款光照</div><div id="stage-labels" class="stage-labels"></div><div id="loading" class="loading" role="status"><span></span><b>正在准备三维预览</b></div><div id="stage-error" class="stage-error" hidden><b>预览加载失败</b><p></p><button id="retry">重新加载</button></div><div class="axis" aria-hidden="true"><span class="y">Y</span><span class="x">X</span><span class="z">Z</span></div></div>
+        <div class="preview-bottom"><span><kbd>左键</kbd> 旋转 <kbd>中键</kbd> 平移 <kbd>滚轮</kbd> 缩放</span><button id="snapshot" class="quiet">▧ 保存预览图</button></div>
+        <div class="selection-strip"><div><span class="eyebrow">YOUR SHORTLIST</span><h3>我的选择 <b id="shortlist-count">0</b></h3></div><div id="shortlist" class="shortlist"><p>点击「加入选择」，保留中意的材质。</p></div></div>
+      </section>
+      <aside class="inspector panel" aria-label="材质详情与显示参数">
+        <div class="inspector-top"><span class="eyebrow">MATERIAL DETAILS</span><span id="detail-number">—</span></div>
+        <div class="detail-title"><span id="detail-pack" class="pack-badge">材质资源</span><h2 id="detail-title">正在读取…</h2><p id="detail-name"></p></div>
+        <button id="select-material" class="select-button" disabled>＋ 加入选择</button>
+        <div class="inspector-section"><div class="section-heading"><h3>显示方式</h3><button id="reset-material" class="text-button">重置参数</button></div><div class="segmented mode-switch"><button data-mode="platform" aria-pressed="true">平台土体</button><button data-mode="source" aria-pressed="false">材质本色</button></div><p id="mode-note" class="muted">统一使用当前平台的土体表面参数。</p>
+          <label class="range-label" for="repeat">纹理重复 <output id="repeat-value">1.0 ×</output></label><input id="repeat" type="range" min="0.5" max="6" step="0.1" value="1">
+          <label class="range-label" for="roughness">粗糙度 <output id="roughness-value">0.92</output></label><input id="roughness" type="range" min="0.04" max="1" step="0.01" value="0.92">
+          <label class="range-label" for="normal">凹凸强度 <output id="normal-value">0.32</output></label><input id="normal" type="range" min="0" max="1.5" step="0.01" value="0.32">
+        </div>
+        <div class="inspector-section"><div class="section-heading"><h3>纹理通道</h3><span id="map-count"></span></div><div id="maps" class="map-grid"></div><p class="muted small">点击通道查看贴图；高度图仅供查看。</p></div>
+        <div class="inspector-section source-section"><div class="section-heading"><h3>资源信息</h3><button id="copy-path" class="text-button">复制路径</button></div><dl><div><dt>原图分辨率</dt><dd id="resolution">—</dd></div><div><dt>浏览预览</dt><dd>最长边 1024 px</dd></div><div><dt>资源类型</dt><dd>材质 + 纹理贴图</dd></div></dl><code id="source-path"></code><details><summary>查看灯光与渲染参数</summary><dl class="preset"><div><dt>色调映射</dt><dd>ACES Filmic / sRGB</dd></div><div><dt>曝光 / 环境光</dt><dd>0.85 / 0.55</dd></div><div><dt>主光 / 补光</dt><dd>1.8 / 0.65</dd></div><div><dt>半球光 / 阴影</dt><dd>0.65 / PCF 2048</dd></div></dl><p class="muted small">沿用平台正交相机、环境与灯光。自定义 Unity Shader 的视差、位移等特效未移植。</p></details></div>
+      </aside>
+    </div>
+    <footer class="page-footer"><span>三个资源包 · 统一光照 · 本地选择清单</span><span>材质以统一样块展示 · 原始文件保持不变</span></footer>
+  </main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="map-dialog"><div class="dialog-top"><h2 id="map-dialog-title">纹理预览</h2><button id="close-dialog" aria-label="关闭纹理预览">✕</button></div><img id="map-dialog-image" alt=""><p id="map-dialog-path"></p></dialog>
+</body>
+</html>

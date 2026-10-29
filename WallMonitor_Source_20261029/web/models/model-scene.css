@@ -1,0 +1,42 @@
+.scene-viewport{position:relative;width:100%;height:100%;min-height:0;overflow:hidden}
+.geometry>.empty{flex:1;width:100%;min-height:0;align-self:stretch}
+.scene-viewport canvas{display:block;position:absolute;inset:0;width:100%;height:100%}
+.scene-viewport .scene-labels{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.scene-message{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;padding:25px;text-align:center;color:#a9c7db;font-size:var(--font-body);line-height:1.9;background:#143654}
+.scene-viewport[data-status=ready]>.scene-message{display:none}
+.scene-viewport[data-mode=solid] canvas{cursor:grab}.scene-viewport canvas[data-dragging=true]{cursor:grabbing}
+.scene-viewport canvas:focus-visible{outline:1px solid #91eaff;outline-offset:-2px}
+.scene-viewport canvas[data-focus-origin=pointer]:focus-visible{outline:none}
+.scene-reset{position:absolute;right:8px;top:8px;z-index:3;display:grid;place-items:center;width:34px;height:34px;padding:6px;color:#b7edff;border:1px solid #629cb7;border-radius:3px;background:#12324bd9;cursor:pointer;transition:background .15s,box-shadow .15s}
+.scene-reset svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.scene-reset:hover,.scene-reset:focus-visible{color:#effcff;background:#215672;box-shadow:0 0 10px #39baff40;outline:1px solid #8bdbff}
+.scene-reset[hidden]{display:none}
+.scene-reset.scene-surfaces{top:8px;right:50px}
+.scene-reset.scene-view-mode{top:8px;right:92px}
+.scene-view-mode[data-mode=section]{color:#8edfff;background:#153b57e6}
+.scene-view-mode[data-mode=solid]{color:#e6faff;background:#28617fe6;border-color:#76bdd5}
+.scene-surfaces[aria-pressed=false]{color:#88acc1;background:#102b42d9}
+.scene-mode{display:flex;gap:5px;margin-top:0;flex-wrap:wrap}
+.scene-mode button{font-size:var(--font-caption);padding:6px;border-radius:3px;white-space:nowrap}
+.scene-mode button[aria-pressed=true]{color:#e6faff;background:#28617f;border-color:#76bdd5}
+.geometry-panel .model-controls,.model-panel .model-controls{justify-content:flex-end}
+.geometry-panel .geometry-legend>span,.model-panel .model-footer>span,
+.geometry-panel .geometry-legend .concrete-legend,.model-panel .model-footer .concrete-legend{font-size:var(--font-meta)}
+.concrete-legend{display:inline-flex;align-items:center;gap:8px;font-size:var(--font-caption);color:#bad0df}
+.geometry-panel .geometry-legend .concrete-legend:before,.geometry-panel .geometry-legend .concrete-unknown:before{content:none;border:0;width:0;margin:0}
+.concrete-legend span{white-space:nowrap}
+.geometry-panel .geometry-legend .concrete-fresh:before,.model-panel .model-footer .concrete-fresh:before,
+.geometry-panel .geometry-legend .concrete-set:before,.model-panel .model-footer .concrete-set:before{content:'';display:inline-block;width:10px;height:7px;margin-right:4px;border:1px solid #809397;vertical-align:middle;background:#41494a}
+.geometry-panel .geometry-legend .concrete-set:before,.model-panel .model-footer .concrete-set:before{background:#c4cac5;border-color:#d4d9d3}
+.concrete-unknown{display:none}
+.concrete-legend[data-phase=unknown] .concrete-fresh,.concrete-legend[data-phase=unknown] .concrete-set{display:none}
+.geometry-panel .geometry-legend .theory-line:before,.model-panel .model-footer .theory-line:before{content:'';display:inline-block;width:16px;height:6px;margin-right:5px;border:1px solid var(--data-color,#40adff);border-style:dashed;background:#40adff21;vertical-align:middle}
+.geometry-panel .geometry-legend .actual-line:before,.model-panel .model-footer .actual-line:before{content:'';display:inline-block;width:16px;height:6px;margin-right:5px;border:1px solid var(--series-secondary,#2ce6a0);background:#2ce6a03d;vertical-align:middle}
+.concrete-legend[data-phase=unknown] .concrete-unknown{display:inline}
+.concrete-legend[data-phase=empty]{display:none}
+.workbench-scene{width:100%;height:550px;flex:none}
+.workbench-plan{width:100%;padding:8px 15px 16px}
+.workbench-plan svg{width:100%;max-height:170px!important}
+.geometry-asset-note{font-size:var(--font-caption);line-height:1.8;color:#9db4c5;padding:0 20px 12px}
+.monitor-embedded .workbench-scene{height:470px}
+@media(max-width:700px){.workbench-scene{height:590px}}

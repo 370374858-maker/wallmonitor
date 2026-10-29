@@ -1,0 +1,23 @@
+{
+  "sourceProject": "Codex三维建模",
+  "assets": [
+    {
+      "file": "joint.glb",
+      "source": "接头管_卡槽一体过渡版/接头管_一体卡槽.glb",
+      "bytes": 145156,
+      "sha256": "fbc81469775b803c24627df770de84e68875e7953591351374800e800632c706"
+    },
+    {
+      "file": "tremie.glb",
+      "source": "浇筑管与接头管_清爽低面版/浇筑管_单节.glb",
+      "bytes": 45648,
+      "sha256": "5422eec24cb1560c95e0f44ade04b089836bea616322a284ae9770a470d72416"
+    },
+    {
+      "file": "soil.glb",
+      "source": "岩土模型库_规则长方体贴图版/六层组合_仅长方体.glb",
+      "bytes": 4253948,
+      "sha256": "5276d2fca9c610c631c9519a3503990b33b02f17a70dba1fb041a85b98645666"
+    }
+  ]
+}

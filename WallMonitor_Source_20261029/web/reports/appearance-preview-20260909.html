@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>材质与渐变验收 · 隔离展示样例</title>
+<link rel="stylesheet" href="/typography.css"><link rel="stylesheet" href="/models/model-scene.css"><link rel="stylesheet" href="/title-treatment.css">
+<script type="importmap">{"imports":{"three":"/vendor/three-0.185.1/build/three.module.min.js","three/addons/":"/vendor/three-0.185.1/examples/jsm/"}}</script>
+<style>
+body{margin:0;background:#081d36;color:#c0d8f0}main{max-width:1280px;margin:auto;padding:16px}p{margin:0 0 10px}h2{font-size:var(--font-section);margin:0 0 12px}.samples,.models{display:grid;gap:16px}.samples{grid-template-columns:repeat(3,1fr);margin-bottom:14px}.sample,.geometry-panel{background:linear-gradient(125deg,#14365ce8,#0e284de8);border:1px solid #2b6089;padding:14px}.sample p{font-size:var(--font-meta);color:#89aecb}.sample:nth-child(2){--section-title-start:#74b8ff;--section-title-middle:#75d0ff;--section-title-end:#a0e7ff}.sample:nth-child(3){--section-title-start:#a3b7ff;--section-title-middle:#95d6ff;--section-title-end:#8edbd9}.models{grid-template-columns:1fr 1fr}.model{height:620px}.geometry-legend{display:flex;gap:12px;justify-content:center;min-height:18px}nav{display:flex;gap:10px;margin-bottom:12px}button{background:#163b5d;color:#d6edff;border:1px solid #45819f;padding:8px 12px;cursor:pointer}button[aria-pressed=true]{background:#225a76;border-color:#70d8f1}#note{color:#90b4cd;font-size:var(--font-meta)}
+</style></head><body><main id="screen">
+<p>视觉验收专用 · 合成槽段，不读取或写入施工数据库</p>
+<section class="samples"><article class="sample"><h2>槽段档案 · 浇筑进度</h2><p>A · 蓝 → 青 → 浅玉绿（选用）</p></article><article class="sample"><h2>槽段档案 · 浇筑进度</h2><p>B · 冰蓝 → 天蓝</p></article><article class="sample"><h2>槽段档案 · 浇筑进度</h2><p>C · 蓝紫 → 淡青</p></article></section>
+<nav aria-label="混凝土状态样例"><button data-state="mixed" aria-pressed="true">深浅分区</button><button data-state="fresh" aria-pressed="false">全部未初凝</button><button data-state="set" aria-pressed="false">全部初凝</button><button data-state="unknown" aria-pressed="false">初凝待判</button></nav>
+<p id="note">合成样例：实测面深 40 m · 深浅分区模式下初凝面为 140 m；混凝土和土体均隐藏前半厚度，露出管道。</p>
+<section class="models"><article class="geometry-panel"><h2>正视剖面</h2><div id="section" class="model"></div><div class="geometry-legend"></div></article><article class="geometry-panel"><h2>立体视角 · 前侧退到管轴线</h2><div id="solid" class="model"></div><div class="geometry-legend"></div></article></section>
+</main><script type="module">
+import { calculateSlot } from '/workbench-domain.js';
+import { showScene } from '/models/model-scene.js';
+const slot=calculateSlot({code:'视觉样例',width:6,thickness:1.8,depth:200,tremieCount:3,tremieInitialDepths:[200,200,200],jointLayout:'both',jointDiameter:.93,jointInitialDepths:{left:200,right:200}});
+const metrics={actualDepth:40,theoreticalDepth:42,tremieDepths:[65,67,66],jointDepths:{left:145,right:148}};
+const states={mixed:{key:'estimated',depth:140},fresh:{key:'pending',depth:null},set:{key:'estimated',depth:40},unknown:{key:'unknown',depth:null}};
+function draw(value){for(const mode of ['section','solid'])showScene(document.getElementById(mode),slot,metrics,states[value],mode);}
+for(const button of document.querySelectorAll('[data-state]'))button.addEventListener('click',()=>{for(const item of document.querySelectorAll('[data-state]'))item.setAttribute('aria-pressed',String(item===button));draw(button.dataset.state);});
+draw('mixed');
+</script></body></html>

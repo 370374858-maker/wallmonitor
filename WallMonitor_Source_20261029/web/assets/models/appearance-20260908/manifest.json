@@ -1,0 +1,25 @@
+{
+  "targetLayer": "S06",
+  "appearanceSource": "S04",
+  "displayOnly": true,
+  "textures": [
+    {
+      "file": "fine-sand-side.jpg",
+      "source": "岩土模型库_规则长方体贴图版/textures/S04_side_color.jpg",
+      "bytes": 213022,
+      "sha256": "b31d916e4ec3f482d61980b3c1cdf412519ae39443ccc947ef609d29596f80d4"
+    },
+    {
+      "file": "fine-sand-top.jpg",
+      "source": "岩土模型库_规则长方体贴图版/textures/S04_top_color.jpg",
+      "bytes": 213022,
+      "sha256": "b31d916e4ec3f482d61980b3c1cdf412519ae39443ccc947ef609d29596f80d4"
+    },
+    {
+      "file": "fine-sand-roughness.png",
+      "source": "岩土模型库_规则长方体贴图版/textures/S04_roughness.png",
+      "bytes": 67568,
+      "sha256": "d1784b7a46bd6575495da4dd870749feacc6e6c6a35e566056e6d4015eb71841"
+    }
+  ]
+}

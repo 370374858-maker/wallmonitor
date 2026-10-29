@@ -1,0 +1,16 @@
+:root {
+  --font-display:32px;
+  --font-page:24px;
+  --font-navigation:20px;
+  --font-section:18px;
+  --font-body:14px;
+  --font-meta:12px;
+  --font-caption:10px;
+  --font-regular:400;
+  --font-strong:700;
+  font-family:Arial,"Microsoft YaHei","PingFang SC",sans-serif;
+  font-size:var(--font-body);
+  font-weight:var(--font-regular);
+}
+:where(code,kbd,samp,pre) { font-family:Arial,"Microsoft YaHei","PingFang SC",sans-serif; }
+:where(button,input,select,textarea) { font-family:inherit; }

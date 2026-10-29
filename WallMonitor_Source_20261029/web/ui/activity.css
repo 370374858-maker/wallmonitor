@@ -1,0 +1,20 @@
+.operation-status{position:fixed;right:24px;bottom:22px;z-index:900;display:flex;align-items:center;gap:12px;max-width:540px;padding:13px 18px;border:1px solid var(--console-border,#2b6089);border-radius:6px;background:#12365bf5;box-shadow:0 8px 28px #04162c66;color:var(--console-heading,#e6f7ff);pointer-events:none}
+#screen>.operation-status{position:absolute}
+.revision-dialog>.operation-status{position:static;max-width:none;margin:0 20px 14px;padding:10px 14px;box-shadow:none}
+.operation-status[hidden]{display:none}
+.operation-status strong{display:block;font-size:var(--font-body);font-weight:var(--font-strong)}
+.operation-status small,.activity-time{font-size:var(--font-meta);color:var(--console-muted,#89aecb)}
+.operation-status small:empty{display:none}
+.activity-time{white-space:nowrap}
+.activity-spinner,[data-working=true]::before{display:inline-block;flex:none;width:18px;height:18px;border:2px solid #67b9dd40;border-top-color:var(--console-accent,#27d9ff);border-radius:50%;animation:activity-spin .85s linear infinite}
+button[data-working=true]::before{content:'';width:13px;height:13px;margin-right:9px;vertical-align:-2px}
+.activity-done .activity-spinner{animation:none;border-color:#89aecb}
+.scene-viewport:not([data-status=error]):not([data-status=ready])::before{content:'';position:absolute;left:50%;top:50%;width:88px;height:88px;margin:-44px 0 0 -44px;z-index:4;border:0;border-radius:12px;background:#0b294180;pointer-events:none}
+.scene-viewport:not([data-status=error]):not([data-status=ready])::after{content:'';position:absolute;left:50%;top:50%;width:40px;height:40px;margin:-20px 0 0 -20px;box-sizing:border-box;z-index:5;border:3px solid #8edfff35;border-top-color:#8edfff;border-radius:50%;animation:activity-spin .85s linear infinite;pointer-events:none}
+.scene-message{gap:12px;flex-direction:column}
+.scene-viewport:not([data-status=ready])>canvas,.scene-viewport:not([data-status=ready])>.scene-labels{visibility:hidden}
+.scene-viewport:not([data-status=ready]):not([data-status=error])>.scene-message{background:transparent;font-size:0;pointer-events:none}
+.scene-viewport[data-status=ready][data-update-error=true]>.scene-message{display:block;inset:auto 12px 12px;padding:7px 10px;background:#143654df;font-size:var(--font-meta);pointer-events:none}
+.revision-dialog [data-working=true]{cursor:wait}
+@keyframes activity-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.activity-spinner,[data-working=true]::before,.scene-viewport::after{animation:none!important;border-top-color:#e6f7ff}}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <link rel="stylesheet" href="/ui/auth-session.css"><script type="module" src="/ui/auth-session.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>if(window.parent===window){document.documentElement.style.visibility='hidden';location.replace('/dashboard#overview');}else if(new URLSearchParams(location.search).get('embedded')==='monitor'){document.documentElement.classList.add('monitor-embedded');document.querySelector('meta[name="color-scheme"]').content='dark';}</script>
+  <title>防渗墙施工 · 数据工作台</title>
+  <link rel="stylesheet" href="/typography.css"><link rel="stylesheet" href="/workbench/styles.css">
+  <link rel="stylesheet" href="/workbench/embedded.css">
+  <link rel="stylesheet" href="/models/model-scene.css">
+  <link rel="stylesheet" href="/workbench/console.css">
+  <link rel="stylesheet" href="/console-system.css"><link rel="stylesheet" href="/workbench/workspace-layout.css">
+  <link rel="stylesheet" href="/workbench/editing.css">
+  <link rel="stylesheet" href="/ui/activity.css">
+  <link rel="stylesheet" href="/ui/form-feedback.css">
+  <link rel="stylesheet" href="/title-treatment.css">
+  <link rel="stylesheet" href="/workbench/workflow-panels.css">
+  <link rel="stylesheet" href="/workbench/ledger-grid.css">
+  <link rel="stylesheet" href="/workbench/event-ui.css">
+  <link rel="stylesheet" href="/workbench/event-ledger.css">
+  <link rel="stylesheet" href="/workbench/slot-ledger.css">
+  <link rel="stylesheet" href="/ui/notifications.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three-0.185.1/build/three.module.min.js","three/addons/":"/vendor/three-0.185.1/examples/jsm/"}}</script>
+  <script type="module" src="/workbench/bootstrap.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="施工数据工作台首页"><span class="brand-icon" aria-hidden="true">▥</span><span>防渗墙施工<small>CONSTRUCTION WORKSPACE</small></span></a>
+    <div class="masthead-end"><span class="version">独立事件录入 · V2</span><a href="/dashboard" target="_blank" rel="noopener">现场监控大屏 ↗</a></div>
+  </header>
+  <main class="workspace">
+    <div class="page-title"><div><span class="eyebrow">工程数据 / CONSTRUCTION DATA</span><h1>施工数据工作台</h1><p>槽段资料与独立施工事件。</p></div><div id="db-status" class="connection pending" role="status"><i></i>正在连接数据库</div></div>
+    <div class="standalone-workspaces"><button data-workspace="record">施工录入</button><button data-workspace="slot-info">槽段信息</button></div>
+    <div class="toolbar">
+      <nav class="tabs" role="tablist" aria-label="工作流程">
+        <button id="tab-slot" role="tab" aria-controls="view-slot" aria-selected="true" data-tab="slot"><span>01</span>槽段建档</button>
+        <button id="tab-record" role="tab" aria-controls="view-record" aria-selected="false" tabindex="-1" data-tab="record"><span>02</span>施工记录</button>
+        <button id="tab-history" role="tab" aria-controls="view-history" aria-selected="false" tabindex="-1" data-tab="history"><span>03</span>数据台账</button>
+        <button id="tab-slot-edit" role="tab" aria-controls="view-slot-edit" aria-selected="false" tabindex="-1" data-tab="slot-edit"><span>04</span>槽段修改</button>
+        <button id="tab-record-edit" role="tab" aria-controls="view-record-edit" aria-selected="false" tabindex="-1" data-tab="record-edit"><span>05</span>施工记录修改</button>
+        <button id="tab-slot-ledger" role="tab" aria-controls="view-slot-ledger" aria-selected="false" tabindex="-1" data-tab="slot-ledger"><span>02</span>槽段台账</button>
+      </nav>
+      <div class="context-picker"><label for="active-slot">当前槽段</label><select id="active-slot"><option value="">尚未建档</option></select><button id="reload" class="icon-button" title="刷新槽段与历史记录" aria-label="刷新数据">↻</button></div>
+    </div>
+    <div id="notice" class="notice" role="status" hidden></div>
+    <div class="main-grid">
+      <div class="work-area">
+        <section id="view-slot" role="tabpanel" aria-labelledby="tab-slot">
+          <form id="slot-form" class="card" aria-label="新建槽段">
+            <div class="form-body">
+              <fieldset class="slot-identity" aria-label="槽段基本信息"><div class="module-header"><h3>槽段基本信息</h3></div><div class="fields four">
+                <label class="field">槽段编号<input name="code" id="slot-code" autocomplete="off" maxlength="32" placeholder="例如 C-01" required><select id="slot-edit-picker" aria-label="选择要修改的槽段" hidden></select></label>
+                <label class="field">宽度<div class="unit-input"><input name="width" id="slot-width" type="number" step="0.01" min="0.01" max="10000" placeholder="6.00" required><span>m</span></div></label>
+                <label class="field">深度（高）<div class="unit-input"><input name="depth" id="slot-depth" type="number" step="0.01" min="0.01" max="10000" placeholder="200.00" required><span>m</span></div></label>
+                <label class="field">厚度<div class="unit-input"><input name="thickness" id="slot-thickness" type="number" step="0.01" min="0.01" max="1000" placeholder="1.80" required><span>m</span></div></label>
+                <label class="field">初始混凝土面高<div class="unit-input"><input name="initialConcreteHeight" id="slot-initial-height" type="number" step="0.01" min="0" max="10000" value="0.00" required title="自槽底向上；该高度范围内视为已初凝混凝土"><span>m</span></div><small>自槽底 · 视为已初凝</small></label>
+                <label class="field">初始面观测时间<input name="initialObservedAt" type="datetime-local" step="60" required><small>北京时间 · 首次实测速度的时间基准</small></label>
+              </div><div class="slot-calculation"><div class="formula-note"><span>截面积计算</span><p>宽 × 厚 − 管数 × ½π × (接头管径 / 2)²</p><small>每侧扣减半圆；浇筑管不扣减。</small></div>
+              <div class="area-summary"><div><small>有效截面积</small><b id="draft-area">— <em>m²</em></b></div><div><small>设计容积</small><b id="draft-capacity">— <em>m³</em></b></div><span id="slot-draft-hint">填写参数后自动计算</span></div></div>
+              </fieldset>
+              <fieldset class="slot-tremies" aria-label="浇筑管配置"><div class="module-header"><h3>浇筑管配置</h3><small>Ø 0.30 m</small></div><div class="inline-control"><label for="tremie-count">数量</label><select id="tremie-count" name="tremieCount" required><option value="" selected disabled>请选择</option><option value="1">1 根</option><option value="2">2 根</option><option value="3">3 根</option></select><button type="button" class="text-button" data-fill-initial="tremie">初始管底设为槽底</button></div><div id="tremie-initial-fields" class="fields three"></div></fieldset>
+              <fieldset class="slot-joints" aria-label="接头管配置"><div class="module-header"><h3>接头管配置</h3></div><div class="inline-control"><label for="joint-layout">位置</label><select id="joint-layout" name="jointLayout" required><option value="" selected disabled>请选择</option><option value="none">无接头管</option><option value="left">单左</option><option value="right">单右</option><option value="both">双侧</option></select><button type="button" class="text-button" data-fill-initial="joint">初始管底设为槽底</button></div><div class="joint-config-fields"><label class="field" for="joint-diameter">接头管直径<div class="unit-input"><input name="jointDiameter" id="joint-diameter" type="number" step="0.0001" min="0.0001" placeholder="例如 0.93" aria-describedby="joint-diameter-hint" disabled><span>m</span></div><small id="joint-diameter-hint">选择接头管位置后填写实际管径</small></label><div id="joint-initial-fields" class="fields two"></div></div></fieldset>
+              <fieldset class="slot-cross-section" aria-label="横截面预览"><div class="module-header"><h3>横截面预览</h3></div><div id="slot-cross-section-view" class="slot-cross-section-view"></div></fieldset>
+            </div>
+            <footer class="form-footer"><div class="reset-controls"><button type="button" class="secondary-button" data-reset-slot><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v6h6"/></svg><span>重置</span></button></div><button id="save-slot" type="submit" class="primary-button"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3h12l2 2v16H5z"/><path d="M8 3v6h8V3M8 21v-7h8v7"/></svg><span>保存</span></button></footer>
+          </form>
+        </section>
+        <section id="view-record" role="tabpanel" aria-labelledby="tab-record" hidden><div id="record-content"></div></section>
+        <section id="view-history" role="tabpanel" aria-labelledby="tab-history" hidden><div id="history-content"></div></section>
+        <section id="view-slot-edit" role="tabpanel" aria-labelledby="tab-slot-edit" hidden><div class="edit-empty"></div></section>
+        <section id="view-record-edit" role="tabpanel" aria-labelledby="tab-record-edit" hidden></section>
+        <section id="view-slot-ledger" role="tabpanel" aria-labelledby="tab-slot-ledger" hidden><div id="slot-ledger-content"></div></section>
+      </div>
+      <aside class="model-panel card" aria-label="槽段参数化模型">
+        <header class="model-heading"><span id="model-state" class="model-state">未保存草稿</span></header>
+        <div id="model-view" class="model-view"></div>
+        <div id="model-values" class="model-values"></div>
+        <footer class="model-footer"><span class="theory-line">理论面</span><span class="actual-line">实测面</span></footer>
+      </aside>
+    </div>
+    <footer class="page-footer"><span>防渗墙施工数据平台</span><span>北京时间 UTC+8</span></footer>
+  </main>
+</body>
+</html>

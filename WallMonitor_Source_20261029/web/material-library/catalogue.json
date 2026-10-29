@@ -1,0 +1,5213 @@
+{
+  "schemaVersion": 1,
+  "sourceRoot": "E:\\UnityProject\\Beta0730\\Assets",
+  "packs": [
+    {
+      "id": "concrete",
+      "name": "Concrete textures pack",
+      "label": "混凝土",
+      "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack",
+      "count": 20
+    },
+    {
+      "id": "world",
+      "name": "WorldMaterialsFree",
+      "label": "综合材质",
+      "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree",
+      "count": 18
+    },
+    {
+      "id": "ground",
+      "name": "Ground textures pack",
+      "label": "地表",
+      "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack",
+      "count": 20
+    }
+  ],
+  "materials": [
+    {
+      "id": "concrete-concrete-pattern-01",
+      "title": "混凝土 01",
+      "name": "Concrete pattern 01",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 01\\Concrete pattern 01.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/be56045be1c6929b-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 01\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/be56045be1c6929b-albedo-thumb.webp",
+          "guid": "52fb9790650d0324c8b24cae56159844",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/a9ebbc95af88bcb7-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 01\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "4c89e0f06b2b0c34ebb9b930314cf921",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/be56045be1c6929b-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 01 concrete pattern 01 concrete textures pack pattern 01"
+    },
+    {
+      "id": "concrete-concrete-pattern-02",
+      "title": "混凝土 02",
+      "name": "Concrete pattern 02",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 02\\Concrete pattern 02.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/9993f285661c072b-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 02\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/9993f285661c072b-albedo-thumb.webp",
+          "guid": "ac337a3170ca1644fbe573e8389e6224",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/4d11eb65456f81e4-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 02\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "36c90be17cf50af41a9f4c35a0abc566",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/9993f285661c072b-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 02 concrete pattern 02 concrete textures pack pattern 02"
+    },
+    {
+      "id": "concrete-concrete-pattern-03",
+      "title": "混凝土 03",
+      "name": "Concrete pattern 03",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 03\\Concrete pattern 03.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/b8906b1172fc4c1f-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 03\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/b8906b1172fc4c1f-albedo-thumb.webp",
+          "guid": "a0abf4a2000b8db4b839f1a048fafbc8",
+          "repeat": [
+            1.0,
+            50.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/3d30630715c89b5a-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 03\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "a4b3c4b19bb248240b69534d0d290fa6",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/b8906b1172fc4c1f-albedo-thumb.webp",
+      "sourceColor": [
+        0.6698113,
+        0.6698113,
+        0.6698113,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.757,
+        "roughness": 0.5,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "混凝土 03 concrete pattern 03 concrete textures pack pattern 03"
+    },
+    {
+      "id": "concrete-concrete-pattern-04",
+      "title": "混凝土 04",
+      "name": "Concrete pattern 04",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 04\\Concrete pattern 04.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/d7a1d098826f5bdb-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 04\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/d7a1d098826f5bdb-albedo-thumb.webp",
+          "guid": "f177303393a7c84488d40d0843aab036",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/fcf2e17c335afa28-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 04\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "10aaffe9500c81040b80c85d480a877e",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/d7a1d098826f5bdb-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 04 concrete pattern 04 concrete textures pack pattern 04"
+    },
+    {
+      "id": "concrete-concrete-pattern-05",
+      "title": "混凝土 05",
+      "name": "Concrete pattern 05",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 05\\Concrete pattern 05.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/24a107c30acd45b1-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 05\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/24a107c30acd45b1-albedo-thumb.webp",
+          "guid": "f3c3b5b741e8fda40b5541562f461415",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/5a79052046f60244-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 05\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "2fee60a97b8865c4ca9b84b80f6b12d7",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/24a107c30acd45b1-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 05 concrete pattern 05 concrete textures pack pattern 05"
+    },
+    {
+      "id": "concrete-concrete-pattern-06",
+      "title": "混凝土 06",
+      "name": "Concrete pattern 06",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 06\\Concrete pattern 06.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c7e7d4e6ad8ca4b5-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 06\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c7e7d4e6ad8ca4b5-albedo-thumb.webp",
+          "guid": "797b455d235e0f9429d6eedc7e2e6e49",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/df58126f60bd9e8c-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 06\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "bb45c9fdde18c2842b841cf4eb598957",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c7e7d4e6ad8ca4b5-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 06 concrete pattern 06 concrete textures pack pattern 06"
+    },
+    {
+      "id": "concrete-concrete-pattern-07",
+      "title": "混凝土 07",
+      "name": "Concrete pattern 07",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 07\\Concrete pattern 07.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c49c0fb5faa728be-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 07\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c49c0fb5faa728be-albedo-thumb.webp",
+          "guid": "e312182b2d9d04c47a2ffb6c823b3a56",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/2a4c570d245147d3-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 07\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "7a6f2bd98e2c2a347a46d434d356e86a",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c49c0fb5faa728be-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 07 concrete pattern 07 concrete textures pack pattern 07"
+    },
+    {
+      "id": "concrete-concrete-pattern-08",
+      "title": "混凝土 08",
+      "name": "Concrete pattern 08",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 08\\Concrete pattern 08.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/23c60bcbd3ff9660-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 08\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/23c60bcbd3ff9660-albedo-thumb.webp",
+          "guid": "14efa88d20a9c834fa648fbcf82c2f44",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/5f587f39207ab0c2-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 08\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "b9198e7b8cb3f5342a8c154efbaff1d8",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/23c60bcbd3ff9660-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 08 concrete pattern 08 concrete textures pack pattern 08"
+    },
+    {
+      "id": "concrete-concrete-pattern-09",
+      "title": "混凝土 09",
+      "name": "Concrete pattern 09",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 09\\Concrete pattern 09.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/5906ab6d2d7aad97-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 09\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/5906ab6d2d7aad97-albedo-thumb.webp",
+          "guid": "e7e2260ae09042e4f85772607531094f",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/ead72593787fdd64-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 09\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "351659eb5c7bd504f8cc03dc40527e51",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/5906ab6d2d7aad97-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 09 concrete pattern 09 concrete textures pack pattern 09"
+    },
+    {
+      "id": "concrete-concrete-pattern-10",
+      "title": "混凝土 10",
+      "name": "Concrete pattern 10",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 10\\Concrete pattern 10.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c08b1cffac4c6e3e-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 10\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c08b1cffac4c6e3e-albedo-thumb.webp",
+          "guid": "63572e5568cdd1f4382233109e0172f5",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/ad50fbc7680c3530-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 10\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "bb1d9b4bcac392e449005887c6da1d88",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c08b1cffac4c6e3e-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 10 concrete pattern 10 concrete textures pack pattern 10"
+    },
+    {
+      "id": "concrete-concrete-pattern-11",
+      "title": "混凝土 11",
+      "name": "Concrete pattern 11",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 11\\Concrete pattern 11.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/bdc85dd3f6211e45-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 11\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/bdc85dd3f6211e45-albedo-thumb.webp",
+          "guid": "4fd7d8b01792b324ba55aba32b8e7714",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/f519e6de4d9e78b5-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 11\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "fbcf021c5f50bd24cbe41780e59d027b",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/bdc85dd3f6211e45-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 11 concrete pattern 11 concrete textures pack pattern 11"
+    },
+    {
+      "id": "concrete-concrete-pattern-12",
+      "title": "混凝土 12",
+      "name": "Concrete pattern 12",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 12\\Concrete pattern 12.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/757d15cd4bd846d4-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 12\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/757d15cd4bd846d4-albedo-thumb.webp",
+          "guid": "0f7d501e1bd83f342a13e87ad73a2021",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/788f54312ce92a8b-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 12\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "0832867a17f1d6f48baf3814242b85fe",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/757d15cd4bd846d4-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 12 concrete pattern 12 concrete textures pack pattern 12"
+    },
+    {
+      "id": "concrete-concrete-pattern-13",
+      "title": "混凝土 13",
+      "name": "Concrete pattern 13",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 13\\Concrete pattern 13.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/08fa090831f8ba49-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 13\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/08fa090831f8ba49-albedo-thumb.webp",
+          "guid": "137a6a64c7d915a4a979e2022730a4b1",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/a8bd5242a368e263-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 13\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "4f0c983aed2f7d6479a2631a806a776a",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/08fa090831f8ba49-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 13 concrete pattern 13 concrete textures pack pattern 13"
+    },
+    {
+      "id": "concrete-concrete-pattern-14",
+      "title": "混凝土 14",
+      "name": "Concrete pattern 14",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 14\\Concrete pattern 14.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/5792b21e4f699799-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 14\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/5792b21e4f699799-albedo-thumb.webp",
+          "guid": "337ac93e12665eb4ba14cd1b0ca57bf3",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/25384e18f235264f-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 14\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "5a89234c1c1cee74ea98d53496c77c92",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/5792b21e4f699799-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 14 concrete pattern 14 concrete textures pack pattern 14"
+    },
+    {
+      "id": "concrete-concrete-pattern-15",
+      "title": "混凝土 15",
+      "name": "Concrete pattern 15",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 15\\Concrete pattern 15.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/8a373257602734a9-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 15\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/8a373257602734a9-albedo-thumb.webp",
+          "guid": "5cbc104c942183b41a667dda27ec79a6",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/5cab74ea747d8be6-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 15\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "40950fee77595f845a5d4a8f0412559a",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/8a373257602734a9-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 15 concrete pattern 15 concrete textures pack pattern 15"
+    },
+    {
+      "id": "concrete-concrete-pattern-16",
+      "title": "混凝土 16",
+      "name": "Concrete pattern 16",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 16\\Concrete pattern 16.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/d69ed7dd61add9dd-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 16\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/d69ed7dd61add9dd-albedo-thumb.webp",
+          "guid": "fd16008f462a0b746974440d3b751b5a",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/013c5d3c5be1c956-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 16\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "7de3f241545f4454b9eeddd0482d3690",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/d69ed7dd61add9dd-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 16 concrete pattern 16 concrete textures pack pattern 16"
+    },
+    {
+      "id": "concrete-concrete-pattern-17",
+      "title": "混凝土 17",
+      "name": "Concrete pattern 17",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 17\\Concrete pattern 17.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/e89a4de76014f2e5-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 17\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/e89a4de76014f2e5-albedo-thumb.webp",
+          "guid": "43e7843d5e3a62f41a2ed8bd385747d2",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/d0cbd5dd75efd0e1-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 17\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "dac2a28fc94762d4ca44b2bc4684a2aa",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/e89a4de76014f2e5-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 17 concrete pattern 17 concrete textures pack pattern 17"
+    },
+    {
+      "id": "concrete-concrete-pattern-18",
+      "title": "混凝土 18",
+      "name": "Concrete pattern 18",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 18\\Concrete pattern 18.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/571b95d9a74ae29c-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 18\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/571b95d9a74ae29c-albedo-thumb.webp",
+          "guid": "1581d87fafc571743927113bbb35d150",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/0730d210fba8a7dd-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 18\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "f6a0536a40541a94e806c5d785eae6ae",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/571b95d9a74ae29c-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 18 concrete pattern 18 concrete textures pack pattern 18"
+    },
+    {
+      "id": "concrete-concrete-pattern-19",
+      "title": "混凝土 19",
+      "name": "Concrete pattern 19",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 19\\Concrete pattern 19.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/3926728c490eb6ab-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 19\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/3926728c490eb6ab-albedo-thumb.webp",
+          "guid": "17d86cba6d82c28418f9788157e1358c",
+          "repeat": [
+            3.0,
+            50.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/c5fc418a14562eaa-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 19\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "0de756e42b8c5514a998ecc02de04449",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/3926728c490eb6ab-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 19 concrete pattern 19 concrete textures pack pattern 19"
+    },
+    {
+      "id": "concrete-concrete-pattern-20",
+      "title": "混凝土 20",
+      "name": "Concrete pattern 20",
+      "pack": "concrete",
+      "packLabel": "混凝土",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 20\\Concrete pattern 20.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/ce076dadaf524667-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 20\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/ce076dadaf524667-albedo-thumb.webp",
+          "guid": "b849444d32b0d014f89eea7ab00e6c7c",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/a34ba1201bedb4e8-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Concrete textures pack\\pattern 20\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "7a8be65734a93fc49aca732fcf50e57e",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/ce076dadaf524667-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "混凝土 20 concrete pattern 20 concrete textures pack pattern 20"
+    },
+    {
+      "id": "world-ageddarkwood",
+      "title": "深色旧木",
+      "name": "AgedDarkWood",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\AgedDarkWood_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\AgedDarkWood_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\AgedDarkWood_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\AgedDarkWood_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\AgedDarkWood_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/671c638bd9284a6c-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\AgedDarkWood\\AgedDarkWood_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/671c638bd9284a6c-albedo-thumb.webp",
+          "guid": "2111e868463b68941af27b5b33a429bf",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/922e451e336771d5-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\AgedDarkWood\\AgedDarkWood_Normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "429af1c44709aab47a20350761071b9d",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/e62b87d20c07b9e5-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\AgedDarkWood\\AgedDarkWood_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "81810c6440aa6a040922247b15447cfb",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/2e7990a3a6bfcc43-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\AgedDarkWood\\AgedDarkWood_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "41ee5389a45424b4a80528258a4c236c",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/127acc460ab93a6d-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\AgedDarkWood\\AgedDarkWood_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/671c638bd9284a6c-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.653,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "深色旧木 ageddarkwood worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-basketweavebricks",
+      "title": "编织砖墙",
+      "name": "BasketWeaveBricks",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BasketWeaveBricks_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BasketWeaveBricks_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BasketWeaveBricks_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\BasketWeaveBricks_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\BasketWeaveBricks_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c0725ca94b23eef4-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BasketWeaveBricks\\BasketWeaveBricks_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c0725ca94b23eef4-albedo-thumb.webp",
+          "guid": "b2ee15c7744aecc49b7b13f788755b90",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/f8ee35e414010492-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BasketWeaveBricks\\BasketWeaveBricks_YFliped_Normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "58975c05dd358584c88c2a142740a111",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/ca19b2b42d7ce79b-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BasketWeaveBricks\\BasketWeaveBricks_ao.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "c75c7b152cad0d84fbf8caa89105ea3c",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/5c277eb4759070f7-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BasketWeaveBricks\\BasketWeaveBricks_Height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "ccdccdad117eec447a3acfc62d7d7630",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/4864b69b7d36684b-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BasketWeaveBricks\\BasketWeaveBricks_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c0725ca94b23eef4-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.85,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "编织砖墙 basketweavebricks worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-bathroomtiles",
+      "title": "瓷砖",
+      "name": "BathroomTiles",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BathroomTiles_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BathroomTiles_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BathroomTiles_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\BathroomTiles_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\BathroomTiles_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/efa024eb25819da5-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BathroomTiles\\BathroomTiles_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/efa024eb25819da5-albedo-thumb.webp",
+          "guid": "3b11d976588e702418ce3d7cfde2042b",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/fbdc096e9858a633-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BathroomTiles\\BathroomTiles_YFliped_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "6a8b3c6c7263897449ffa52d4e393c23",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/fe24bee4ced86e78-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BathroomTiles\\BathroomTiles_ao.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "860be524c0b9c6143b310603dc363a8e",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/79f6f90500174831-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BathroomTiles\\BathroomTiles_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "ec44fd46532d5174e8cd2c5a4ee2f280",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/efa024eb25819da5-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BathroomTiles\\BathroomTiles_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "metallic": {
+          "url": "/material-library/textures/efa024eb25819da5-metallic.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BathroomTiles\\BathroomTiles_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/efa024eb25819da5-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.7110000000000001,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "瓷砖 bathroomtiles worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-brushediron",
+      "title": "拉丝金属",
+      "name": "BrushedIron",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BrushedIron_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BrushedIron_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\BrushedIron_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\BrushedIron_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\BrushedIron_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/304499f00d202c4f-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BrushedIron\\BrushedIron_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/304499f00d202c4f-albedo-thumb.webp",
+          "guid": "450abdfc31012ee45a60a12a63706bdd",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/95dd196a48314163-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BrushedIron\\BrushedIron_Normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "7d93ec18be30d0340b3270211bba118f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/ebdea54b94ef1345-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BrushedIron\\BrushedIron_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "9ae39f2e8316a2246a5a4c3bf6c2ea36",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/270ebbf29382e8d7-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BrushedIron\\BrushedIron_Height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "ed75473234df47c4cb1b631ffd55f38f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/9a263e461b83f2ef-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BrushedIron\\BrushedIron_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "metallic": {
+          "url": "/material-library/textures/3fd1eb761f789ac9-metallic.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\BrushedIron\\BrushedIron_Metallic.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/304499f00d202c4f-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.5,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "拉丝金属 brushediron worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-clumpmud",
+      "title": "团块泥土",
+      "name": "ClumpMud",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\ClumpMud_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\ClumpMud_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\ClumpMud_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\ClumpMud_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\ClumpMud_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c62076fb906dc3d6-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\ClumpMud\\ClumpMud_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c62076fb906dc3d6-albedo-thumb.webp",
+          "guid": "8a3ef1722a8fd3a4c8353e18116e7a19",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/a9627e6c81ab1aea-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\ClumpMud\\ClumpMud_YFliped_Normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "a4a37f7a6ffedc448ad87a9046c1534f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/655c9232308b14b7-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\ClumpMud\\ClumpMud_Height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "1ec47b3300477f040b5d59f8fc7497dc",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/c62076fb906dc3d6-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\ClumpMud\\ClumpMud_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "metallic": {
+          "url": "/material-library/textures/c62076fb906dc3d6-metallic.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\ClumpMud\\ClumpMud_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c62076fb906dc3d6-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.4,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "团块泥土 clumpmud worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-coarseconcrete",
+      "title": "粗糙混凝土",
+      "name": "CoarseConcrete",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\CoarseConcrete_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\CoarseConcrete_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\CoarseConcrete_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\CoarseConcrete_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\CoarseConcrete_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c691a2587cf52fb1-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\CoarseConcrete\\CoarseConcrete_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c691a2587cf52fb1-albedo-thumb.webp",
+          "guid": "f176ea04b25f35b4b891496779cb59ab",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/7621586876f35cf4-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\CoarseConcrete\\CoarseConcrete_YFliped_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "4c7e02e2e8ad4374e838f4b890e2d3c6",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/3dbefe8daaedb4fe-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\CoarseConcrete\\CoarseConcrete_ao.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "5c6e855b364e0ad43b51c5810fe13d9d",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/4af046194bb803dd-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\CoarseConcrete\\CoarseConcrete_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "aa9dea029b072b042bf02fc464e0b12f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/508ca3e46b5fa32c-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\CoarseConcrete\\CoarseConcrete_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c691a2587cf52fb1-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.85,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "粗糙混凝土 coarseconcrete worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-desertcliffrock",
+      "title": "荒漠岩壁",
+      "name": "DesertCliffRock",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DesertCliffRock_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DesertCliffRock_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DesertCliffRock_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\DesertCliffRock_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\DesertCliffRock_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/a6e14e3755ea3de7-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertCliffRock\\DesertCliffRock_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/a6e14e3755ea3de7-albedo-thumb.webp",
+          "guid": "0ff3d736d50e41a4c9f26cfbfd0672e6",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/25b0eb11bd7dd610-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertCliffRock\\DesertCliffRock_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "849cfd9762b661d43bde99a183d4ada7",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/9e38777c037d2dcb-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertCliffRock\\DesertCliffRock_roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "8a43d49b2d423ca43b66c224d8f108d1",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/87215257e7929a88-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertCliffRock\\DesertCliffRock_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "58a7827d0fd84c64fb9239eb18528414",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/45bf081dbf25fc75-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertCliffRock\\DesertCliffRock_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/a6e14e3755ea3de7-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 1.0,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "荒漠岩壁 desertcliffrock worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-desertsandbrick",
+      "title": "砂色砖墙",
+      "name": "DesertSandBrick",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DesertSandBrick_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DesertSandBrick_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DesertSandBrick_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\DesertSandBrick_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\DesertSandBrick_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/858334d05c7ab456-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertSandBrick\\DesertSandBricks_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/858334d05c7ab456-albedo-thumb.webp",
+          "guid": "40d7fbe8ea051d34eba523ba288c3dee",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/504d4c83afc3d724-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertSandBrick\\DesertSandBricks_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "9aadb6fe23a7254408035437838d84f8",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/afc9d1a2cb189d4b-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertSandBrick\\DesertSandBricks_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "72978bae7d861354393f0406a617cdac",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/fb9b3694626dac59-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertSandBrick\\DesertSandBricks_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "30b8291384f7e02419ca3179c716dec2",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/e88e13fde4d6229c-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DesertSandBrick\\DesertSandBricks_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/858334d05c7ab456-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.8,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "砂色砖墙 desertsandbrick worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-dryrockydirt",
+      "title": "干燥碎石土",
+      "name": "DryRockyDirt",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DryRockyDirt_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DryRockyDirt_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\DryRockyDirt_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\DryRockyDirt_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\DryRockyDirt_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/e1ee3420a20388b6-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DryRockyDirt\\DryRockyDirt_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/e1ee3420a20388b6-albedo-thumb.webp",
+          "guid": "133dc91bc0027424f846f4cff389cb9f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/e14245d15073d023-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DryRockyDirt\\DryRockyDirt_YFliped_Normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "185ea4de8a5e15446a84d3e1a0e26db9",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/dfbada3b2a9c999c-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DryRockyDirt\\DryRockyDirt_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "d48b0ca5ba64be44396e2336c27b3c4b",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/a67996142ef79be5-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DryRockyDirt\\DryRockyDirt_Height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "df3add141d9bccf4e97ff6ab6c319438",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/ad89d33d709f4984-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\DryRockyDirt\\DryRockyDirt_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/e1ee3420a20388b6-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.9,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "干燥碎石土 dryrockydirt worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-grassclumps",
+      "title": "草丛地面",
+      "name": "GrassClumps",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\GrassClumps_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\GrassClumps_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\GrassClumps_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\GrassClumps_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\GrassClumps_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/0b8bf73254bbab82-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassClumps\\GrassClumps_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/0b8bf73254bbab82-albedo-thumb.webp",
+          "guid": "b500db8fa0ef7a748a05edd476f8792c",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/90fbc93ba178960e-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassClumps\\GrassClumps_Yfliped_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "384a7c41f40c1eb42af0c794cb38743d",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/bad87404317fdf23-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassClumps\\GrassClumps_ao.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "b0f89689d918fce4ca715e2d2f50bb44",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/ef837b56997f7abc-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassClumps\\GrassClumps_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "75aa83e701cf56948b1bf72f7e128920",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/0b8bf73254bbab82-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassClumps\\GrassClumps_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "metallic": {
+          "url": "/material-library/textures/0b8bf73254bbab82-metallic.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassClumps\\GrassClumps_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/0b8bf73254bbab82-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.84,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "草丛地面 grassclumps worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-grassgravel",
+      "title": "草地砾石",
+      "name": "GrassGravel",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\GrassGravel_WMShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\GrassGravel_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\GrassGravel_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\GrassGravel_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/056da9e36e6d3bfa-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassGravel\\GrassGravel_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/056da9e36e6d3bfa-albedo-thumb.webp",
+          "guid": "44a48fe88ad4f5844b6d1672bf702e4f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/30dc24daf37b47b8-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassGravel\\GrassGravel_YFliped_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "22da1a499fabde34888dba098e5c9d50",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/9b386c16927739be-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassGravel\\GrassGravel_ao.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "08abe4ebe80f2a8419b792acb0d20542",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/8121c9fa7b996283-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassGravel\\GrassGravel_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "c58babe44f8c3b041872e30e0f504583",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/59e519ea7ae59363-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\GrassGravel\\GrassGravel_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/056da9e36e6d3bfa-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.5,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "草地砾石 grassgravel worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-hexbricks",
+      "title": "六角铺砖",
+      "name": "HexBricks",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\HexBricks_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\HexBricks_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\HexBricks_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\HexBricks_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\HexBricks_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/b777ce5f27c931fb-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\HexBricks\\HexBricks_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/b777ce5f27c931fb-albedo-thumb.webp",
+          "guid": "a722c3f6057abe04a94034f923d953fb",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/8aee09e88f2c598d-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\HexBricks\\HexBricks_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "d4f69a826c0a5234cb14cd32957f13b8",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/4d1d71f0f8442d74-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\HexBricks\\HexBricks_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "4649392a20f684241bedd6e5f47d1c7f",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/1a71fe11d4a466b0-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\HexBricks\\HexBricks_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "c4aabfcb8fc834541a39eb5e5ec2a787",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/b777ce5f27c931fb-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.892,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "六角铺砖 hexbricks worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-pebbledgravel",
+      "title": "卵石砾石",
+      "name": "PebbledGravel",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\PebbledGravel_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\PebbledGravel_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\PebbledGravel_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\PebbledGravel_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\PebbledGravel_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/acf49ed0de688886-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PebbledGravel\\PebbledGravel_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/acf49ed0de688886-albedo-thumb.webp",
+          "guid": "f4ed305362918144e97c242b8301811e",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/41ebcfa8e617b96b-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PebbledGravel\\PebbledGravel_YFliped_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "bedfc1b580f2a5f4d9bc40c2d7872747",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/0fbfcd573e7b0964-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PebbledGravel\\PebbledGravel_ao.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "74968bcc596691b4fab1a164c84c1d5a",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/2fa5def58d028c40-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PebbledGravel\\PebbledGravel_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "b008c37730af1ae4fa7faad8c6dffbca",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/808ed9155bdeb1f0-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PebbledGravel\\PebbledGravel_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/acf49ed0de688886-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.94,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "卵石砾石 pebbledgravel worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-plainwhitefabric",
+      "title": "素色织物",
+      "name": "PlainWhiteFabric",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\PlainWhiteFabric_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\PlainWhiteFabric_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\PlainWhiteFabric_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\PlainWhiteFabric_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\PlainWhiteFabric_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/0fc9df0bcfdb0cd9-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PlainFabric\\PlainFabric_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/0fc9df0bcfdb0cd9-albedo-thumb.webp",
+          "guid": "cead994c572233a4c95183f57099d859",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/77ac458f6a244599-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PlainFabric\\PlainFabric_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "5f0d63cb1f7202c4db3e8e47008aca06",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/b32357cfcb42082b-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PlainFabric\\PlainFabric_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "62996a92e08e62f449da2ef36de6de71",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/0aef8ee3f5df9dfd-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\PlainFabric\\PlainFabric_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/0fc9df0bcfdb0cd9-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.9,
+        "normalScale": 1.15,
+        "aoIntensity": 1.0
+      },
+      "search": "素色织物 plainwhitefabric worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-ruinstonebricks",
+      "title": "旧石砖",
+      "name": "RuinStoneBricks",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\RuinStoneBricks_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\RuinStoneBricks_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\RuinStoneBricks_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\RuinStoneBricks_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\RuinStoneBricks_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/11800e4a820dde7e-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\RuinStoneBricks\\RuinStoneBricks_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/11800e4a820dde7e-albedo-thumb.webp",
+          "guid": "47e19e96c5e387843ba535f4af8e8b89",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/59b582d752783dde-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\RuinStoneBricks\\RuinStoneBricks_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "f7d9f421b54fb5b4f9e8346b078c6b47",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/dfc5d3550201fc48-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\RuinStoneBricks\\RuinStoneBricks_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "38462e489520adb45a64da1bbb4046a1",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/00cd49b86f8a76a1-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\RuinStoneBricks\\RuinStoneBricks_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "68230a5a72b27b34da2c8bdf279cea66",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/11800e4a820dde7e-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 1.0,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "旧石砖 ruinstonebricks worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-simpleredbricks",
+      "title": "红砖",
+      "name": "SimpleRedBricks",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\SimpleRedBricks_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\SimpleRedBricks_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\SimpleRedBricks_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\SimpleRedBricks_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\SimpleRedBricks_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/f857cfec7d203835-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\SimpleRedBricks\\SimpleRedBricks_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/f857cfec7d203835-albedo-thumb.webp",
+          "guid": "0e8f903bf9016b547aa6eabef5dbe657",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/22d2df4346317671-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\SimpleRedBricks\\SimpleRedBricks_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "86791057ef535404f8a7a60ea2a81d4e",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/2e6b57927a49cd2f-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\SimpleRedBricks\\SimpleRedBricks_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "becacdba4f01e4140b81a2f0d330b994",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/fb935d3184039c8d-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\SimpleRedBricks\\SimpleRedBricks_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "ec18a1357ed8093489ba7a2c9d3b0816",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/089657a8ce966290-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\SimpleRedBricks\\SimpleRedBricks_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/f857cfec7d203835-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.5,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "红砖 simpleredbricks worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-wavysand",
+      "title": "波纹砂地",
+      "name": "WavySand",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\WaveSand_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\WaveSand_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\WavySand_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\WavySand_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\WavySand_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/47cf279faa8e9808-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WavySand\\WavySand_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/47cf279faa8e9808-albedo-thumb.webp",
+          "guid": "6f71fbb013381db4bb78e6d59ddb1b9b",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/f5709c36a06e2fcf-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WavySand\\WavySand_YFliped_normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "c86cd8ae1cec025468e25672c5d790f4",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/bd5ae41a336ca359-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WavySand\\WavySand_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "e73541d8064b2a348b9682198d10f2ed",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/26620bb5de8007c1-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WavySand\\WavySand_height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "c75f44c256843364ab15efa43a7ca831",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/47cf279faa8e9808-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WavySand\\WavySand_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "metallic": {
+          "url": "/material-library/textures/47cf279faa8e9808-metallic.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WavySand\\WavySand_albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/47cf279faa8e9808-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.8,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "波纹砂地 wavysand worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "world-woodenflooring",
+      "title": "木地板",
+      "name": "WoodenFlooring",
+      "pack": "world",
+      "packLabel": "综合材质",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\WoodenFlooring_StandardShader.mat",
+      "sourceVariants": [
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\WoodenFlooring_StandardShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Built-In_RPMaterials\\WoodenFlooring_WMShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\HDRPMaterials\\WoodenFlooring_HDRPShader.mat",
+        "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\URPMaterials\\WoodenFlooring_URPShader.mat"
+      ],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/5346c9f047075c94-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WoodenFlooring\\WoodenFlooring_Albedo.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/5346c9f047075c94-albedo-thumb.webp",
+          "guid": "aa78f40597b7f474299a2b81d76eb80a",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/ca7b43894eb0aca1-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WoodenFlooring\\WoodenFlooring_YFliped_Normal.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "ddee466986ec720449081b01f389fe94",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "ao": {
+          "url": "/material-library/textures/9ce75c3aa4f22297-ao.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WoodenFlooring\\WoodenFlooring_AO.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "87b24c57073d5b447928e2648ff7b1f4",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "height": {
+          "url": "/material-library/textures/e364d6c1fd5f21a6-height.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WoodenFlooring\\WoodenFlooring_Height.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "c2aad0ca3f333cd46ae70f27cdbbfefb",
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "roughness": {
+          "url": "/material-library/textures/f4b0e3395cb09aec-roughness.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\WorldMaterialsFree\\Resource Files\\WoodenFlooring\\WoodenFlooring_Roughness.png",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "repeat": [
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/5346c9f047075c94-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0.0,
+        "roughness": 0.85,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "木地板 woodenflooring worldmaterialsfree built-in_rpmaterials"
+    },
+    {
+      "id": "ground-dry-ground-pattern",
+      "title": "干燥地面",
+      "name": "Dry ground pattern",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Dry ground\\Dry ground pattern.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c873d4c6d0dc87ac-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Dry ground\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c873d4c6d0dc87ac-albedo-thumb.webp",
+          "guid": "f5d1de47f0f760544a5596ceb8cc895f",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/dea0cbf3b8029966-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Dry ground\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "af579c7a89d15d24eb8c925a43a236cf",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c873d4c6d0dc87ac-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "干燥地面 dry ground pattern ground textures pack dry ground"
+    },
+    {
+      "id": "ground-grass-dead-leafs-pattern-01",
+      "title": "草地与落叶 01",
+      "name": "Grass & dead leafs pattern 01",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & dead leafs 01\\Grass & dead leafs pattern 01.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/6881cdd2e41ccb04-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & dead leafs 01\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/6881cdd2e41ccb04-albedo-thumb.webp",
+          "guid": "46c9b2c471a59f24cbe88eae93a32f60",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/4a41c702f088d4c2-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & dead leafs 01\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "ae0e7acc3616ba441a70994eb662f6e3",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/6881cdd2e41ccb04-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地与落叶 01 grass & dead leafs pattern 01 ground textures pack grass & dead leafs 01"
+    },
+    {
+      "id": "ground-grass-dead-leafs-pattern-02",
+      "title": "草地与落叶 02",
+      "name": "Grass & dead leafs pattern 02",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & dead leafs 02\\Grass & dead leafs pattern 02.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/4c7921a6ee407afb-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & dead leafs 02\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/4c7921a6ee407afb-albedo-thumb.webp",
+          "guid": "f77d739839b967e44898c8a89688369a",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/a91a1ba06bb25575-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & dead leafs 02\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "0c64d261e58031345b9844438ceb0af9",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/4c7921a6ee407afb-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地与落叶 02 grass & dead leafs pattern 02 ground textures pack grass & dead leafs 02"
+    },
+    {
+      "id": "ground-grass-rocks-pattern",
+      "title": "草地与岩石",
+      "name": "Grass & rocks pattern",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & rocks\\Grass & rocks pattern.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/16ba19e5b85e76ab-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & rocks\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/16ba19e5b85e76ab-albedo-thumb.webp",
+          "guid": "12ff3c37d59e28240a8f4643c3ead3d3",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/777d62ef05e55846-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass & rocks\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "e5895469fa6440e4a876bf0672599e59",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/16ba19e5b85e76ab-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地与岩石 grass & rocks pattern ground textures pack grass & rocks"
+    },
+    {
+      "id": "ground-grass-pattern-01",
+      "title": "草地 01",
+      "name": "Grass pattern 01",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 01\\Grass pattern 01.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/cbfe7e46375b01aa-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 01\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/cbfe7e46375b01aa-albedo-thumb.webp",
+          "guid": "a51044dfe95257548b466bc35528b878",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/379ef401a982ba22-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 01\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "0c3232df383d7984ab0e87bf7c42aadb",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/cbfe7e46375b01aa-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地 01 grass pattern 01 ground textures pack grass 01"
+    },
+    {
+      "id": "ground-grass-pattern-02",
+      "title": "草地 02",
+      "name": "Grass pattern 02",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 02\\Grass pattern 02.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/d461e4cdfc63e0dc-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 02\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/d461e4cdfc63e0dc-albedo-thumb.webp",
+          "guid": "d902345b12dd31e4a83f0c375a540341",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/cf2e7f112d7b2ffd-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 02\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "3449a2e698a0deb44a70dec747a3f8e9",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/d461e4cdfc63e0dc-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地 02 grass pattern 02 ground textures pack grass 02"
+    },
+    {
+      "id": "ground-grass-pattern-03",
+      "title": "草地 03",
+      "name": "Grass pattern 03",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 03\\Grass pattern 03.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/04a65d6e3ffc8a13-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 03\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/04a65d6e3ffc8a13-albedo-thumb.webp",
+          "guid": "e9866699a4ddce642b7da4aeaa74d279",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/9ec2b7cfcd0e4400-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 03\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "9cb8a98194aa15642b2ceaa3011ccde3",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/04a65d6e3ffc8a13-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地 03 grass pattern 03 ground textures pack grass 03"
+    },
+    {
+      "id": "ground-grass-pattern-04",
+      "title": "草地 04",
+      "name": "Grass pattern 04",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 04\\Grass pattern 04.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/13eb762eaaaef3ff-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 04\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/13eb762eaaaef3ff-albedo-thumb.webp",
+          "guid": "e939889a01ba73f4c9f41bb8d6d79d5f",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/8c622938bf770093-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 04\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "764d3e4236eef804e831508161d4411f",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/13eb762eaaaef3ff-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地 04 grass pattern 04 ground textures pack grass 04"
+    },
+    {
+      "id": "ground-grass-pattern-05",
+      "title": "草地 05",
+      "name": "Grass pattern 05",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 05\\Grass pattern 05.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/b333e341226372fe-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 05\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/b333e341226372fe-albedo-thumb.webp",
+          "guid": "f0a8168310b10da4faedc474bb26c20f",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/31e4bd2ccb8e0247-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 05\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "f0ec40764219f3f4787df1c70bacf45b",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/b333e341226372fe-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地 05 grass pattern 05 ground textures pack grass 05"
+    },
+    {
+      "id": "ground-grass-pattern-06",
+      "title": "草地 06",
+      "name": "Grass pattern 06",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 06\\Grass pattern 06.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/282692a5fbe08a49-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 06\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/282692a5fbe08a49-albedo-thumb.webp",
+          "guid": "f3c7e12938d22604eb51dc02b394dd80",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/cd15d1f5f4b8a0dc-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Grass 06\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "d06c19850ee13bf4086860fd02cf417d",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/282692a5fbe08a49-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "草地 06 grass pattern 06 ground textures pack grass 06"
+    },
+    {
+      "id": "ground-ground-moss-pattern",
+      "title": "土壤与苔藓",
+      "name": "Ground & moss pattern",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & moss\\Ground & moss pattern.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/72a72139c87c4799-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & moss\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/72a72139c87c4799-albedo-thumb.webp",
+          "guid": "62bf058d0f2f5df4da1f61da15013f34",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/1a42eedf5fe07b8b-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & moss\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "a5c98dee3744c1944a469568d41d8eb4",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/72a72139c87c4799-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤与苔藓 ground & moss pattern ground textures pack ground & moss"
+    },
+    {
+      "id": "ground-ground-rocks-pattern-01",
+      "title": "土壤与碎石 01",
+      "name": "Ground & rocks pattern 01",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 01\\Ground & rocks pattern 01.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c0f5d4309161b781-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 01\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c0f5d4309161b781-albedo-thumb.webp",
+          "guid": "1d1ca9b1ff6a5ce4bbac09d301d51462",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/b39f02fb5f236d82-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 01\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "7d7d59aaca791d54c9726e6b4e1feb61",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c0f5d4309161b781-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤与碎石 01 ground & rocks pattern 01 ground textures pack ground & rocks 01"
+    },
+    {
+      "id": "ground-ground-rocks-pattern-02",
+      "title": "土壤与碎石 02",
+      "name": "Ground & rocks pattern 02",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 02\\Ground & rocks pattern 02.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/5c6e3e7db33eb67e-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 02\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/5c6e3e7db33eb67e-albedo-thumb.webp",
+          "guid": "3787ecf31b318914f908bb48537ebf10",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/947d6b61588f06ea-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 02\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "1ce8744130c8d5542bb1f6e380e35a7e",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/5c6e3e7db33eb67e-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤与碎石 02 ground & rocks pattern 02 ground textures pack ground & rocks 02"
+    },
+    {
+      "id": "ground-ground-rocks-pattern-03",
+      "title": "土壤与碎石 03",
+      "name": "Ground & rocks pattern 03",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\Ground & rocks pattern 03.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/b705f16217ba8d1b-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/b705f16217ba8d1b-albedo-thumb.webp",
+          "guid": "117cca91456049f4692a3becee93522e",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/9bba7477e52bce67-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "cff344200e51614498e78e8f88d54273",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/b705f16217ba8d1b-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤与碎石 03 ground & rocks pattern 03 ground textures pack ground & rocks 03"
+    },
+    {
+      "id": "ground-ground-rocks-pattern-04",
+      "title": "土壤与碎石 04",
+      "name": "Ground & rocks pattern 04",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\Ground & rocks pattern 04.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/b705f16217ba8d1b-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/b705f16217ba8d1b-albedo-thumb.webp",
+          "guid": "117cca91456049f4692a3becee93522e",
+          "repeat": [
+            30.0,
+            10.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/9bba7477e52bce67-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "cff344200e51614498e78e8f88d54273",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/b705f16217ba8d1b-albedo-thumb.webp",
+      "sourceColor": [
+        0.9810125,
+        1.0,
+        0.0,
+        0.7294118
+      ],
+      "sourceSettings": {
+        "metalness": 0.776,
+        "roughness": 1.0,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "土壤与碎石 04 ground & rocks pattern 04 ground textures pack ground & rocks 03"
+    },
+    {
+      "id": "ground-ground-rocks-pattern-05",
+      "title": "土壤与碎石 05",
+      "name": "Ground & rocks pattern 05",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\Ground & rocks pattern 05.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/b705f16217ba8d1b-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/b705f16217ba8d1b-albedo-thumb.webp",
+          "guid": "117cca91456049f4692a3becee93522e",
+          "repeat": [
+            30.0,
+            10.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/9bba7477e52bce67-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & rocks 03\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "cff344200e51614498e78e8f88d54273",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/b705f16217ba8d1b-albedo-thumb.webp",
+      "sourceColor": [
+        0.5283019,
+        0.061019935,
+        0.0,
+        0.6117647
+      ],
+      "sourceSettings": {
+        "metalness": 0.738,
+        "roughness": 1.0,
+        "normalScale": 1.0,
+        "aoIntensity": 1.0
+      },
+      "search": "土壤与碎石 05 ground & rocks pattern 05 ground textures pack ground & rocks 03"
+    },
+    {
+      "id": "ground-ground-weeds",
+      "title": "土壤与杂草",
+      "name": "Ground & weeds",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & weeds\\Ground & weeds.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/c3ac2f65e0065bb2-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & weeds\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/c3ac2f65e0065bb2-albedo-thumb.webp",
+          "guid": "9015343c9bb2cf74083767e91127c98d",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/6fdf11b89af78c19-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground & weeds\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "aaf8aa487d001f44f9726eb6ee77d298",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/c3ac2f65e0065bb2-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤与杂草 ground & weeds ground textures pack ground & weeds"
+    },
+    {
+      "id": "ground-ground-pattern-01",
+      "title": "土壤 01",
+      "name": "Ground pattern 01",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground 01\\Ground pattern 01.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/d2bdddd81e7b1b38-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground 01\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/d2bdddd81e7b1b38-albedo-thumb.webp",
+          "guid": "eafd0beb9c624d34f812be7d14134c2f",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/fa3ae5abc6cfb6bc-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground 01\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "f49b46ff67c24a84ba0cdb7301ab7337",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/d2bdddd81e7b1b38-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤 01 ground pattern 01 ground textures pack ground 01"
+    },
+    {
+      "id": "ground-ground-pattern-02",
+      "title": "土壤 02",
+      "name": "Ground pattern 02",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground 02\\Ground pattern 02.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/122aeac120ce5ea8-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground 02\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/122aeac120ce5ea8-albedo-thumb.webp",
+          "guid": "cd4f831376722b54bbadd59ef7c6c744",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/272f09f314db5a18-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Ground 02\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "bf5346a62bd7d0b43a30d8188cf4163e",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/122aeac120ce5ea8-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "土壤 02 ground pattern 02 ground textures pack ground 02"
+    },
+    {
+      "id": "ground-lava-pattern",
+      "title": "熔岩",
+      "name": "Lava pattern",
+      "pack": "ground",
+      "packLabel": "地表",
+      "sourceMaterial": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Lava\\Lava pattern.mat",
+      "sourceVariants": [],
+      "maps": {
+        "albedo": {
+          "url": "/material-library/textures/4f6e769bcf00451d-albedo.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Lava\\diffuse.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "thumbnail": "/material-library/textures/4f6e769bcf00451d-albedo-thumb.webp",
+          "guid": "cc2d009b31ce2134a9438a34a78632a0",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        },
+        "normal": {
+          "url": "/material-library/textures/95babd51c39d2853-normal.webp",
+          "source": "E:\\UnityProject\\Beta0730\\Assets\\Ground textures pack\\Lava\\normal.tga",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "previewSize": [
+            1024,
+            1024
+          ],
+          "guid": "d9327a0e08e4ab54284a5f31a7e7db5a",
+          "repeat": [
+            3.0,
+            3.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "thumbnail": "/material-library/textures/4f6e769bcf00451d-albedo-thumb.webp",
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceSettings": {
+        "metalness": 0,
+        "roughness": 0.5,
+        "normalScale": 1,
+        "aoIntensity": 1
+      },
+      "search": "熔岩 lava pattern ground textures pack lava"
+    }
+  ],
+  "notes": [
+    "同一 WorldMaterialsFree 材质的渲染管线版本合并展示，源文件路径全部保留。",
+    "预览贴图最长边 1024 px；高度图可查看，未启用视差或位移。"
+  ],
+  "renderPreset": {
+    "source": "web/models/scene-renderer.js + unity-soil-materials.js",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.85,
+    "environmentIntensity": 0.55,
+    "hemisphereIntensity": 0.65,
+    "keyIntensity": 1.8,
+    "fillIntensity": 0.65,
+    "soilRoughness": 0.92,
+    "soilMetalness": 0,
+    "soilNormalScale": 0.32,
+    "soilAOIntensity": 0.45
+  }
+}

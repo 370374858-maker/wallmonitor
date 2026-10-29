@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>防渗墙浇筑智慧预警预报平台</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/vendor/echarts.min.js"></script>
+</head>
+<body>
+  <div id="stage">
+    <main id="screen" aria-label="防渗墙浇筑智慧预警预报平台">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span><b>智慧建造 · 安全监测</b><small>SMART CONSTRUCTION</small></span>
+        </div>
+        <div class="headline">
+          防渗墙浇筑智慧预警预报平台
+          <small>DIAPHRAGM WALL POURING INTELLIGENT MONITORING</small>
+        </div>
+        <div class="top-meta">
+          <span id="system-state" class="system-state"><i></i><b>连接中</b></span>
+          <time id="clock" class="clock">--:--:--<small>----年--月--日</small></time>
+        </div>
+      </header>
+
+      <section class="toolbar">
+        <nav class="nav-tabs" aria-label="功能导航">
+          <button class="nav-button active" data-view="dashboard">实时监控</button>
+          <button class="nav-button" data-view="warnings">预警中心</button>
+          <button class="nav-button" data-view="data">施工数据</button>
+          <button class="nav-button" data-view="slot">槽段参数</button>
+          <button class="nav-button" data-view="settings">系统设置</button>
+        </nav>
+        <div class="slot-picker">
+          <label for="slot-select">当前槽段</label>
+          <select id="slot-select"></select>
+          <span id="slot-state" class="slot-state">—</span>
+        </div>
+        <div class="toolbar-actions">
+          <span id="freshness">正在读取数据</span>
+          <button id="pause-button" class="quiet-button">暂停刷新</button>
+          <button id="refresh-button" class="quiet-button">刷新数据</button>
+          <button id="fullscreen-button" class="quiet-button icon-button" aria-label="全屏">⛶</button>
+        </div>
+      </section>
+
+      <section id="view-dashboard" class="dashboard-grid tab-view active" data-tab-view="dashboard">
+        <div class="column left-column">
+          <article class="panel corner">
+            <header class="panel-heading"><h2>槽段信息</h2><span>SLOT PROFILE</span></header>
+            <div class="profile-grid">
+              <div><small>槽段类型</small><b id="profile-type">—</b></div>
+              <div><small>设计深度</small><b><span id="profile-depth">—</span><em>m</em></b></div>
+              <div><small>槽段宽度</small><b><span id="profile-width">—</span><em>m</em></b></div>
+              <div><small>墙体厚度</small><b><span id="profile-thickness">—</span><em>m</em></b></div>
+              <div><small>浇筑管配置</small><b id="profile-tremie">—</b></div>
+              <div><small>接头管配置</small><b id="profile-joint">—</b></div>
+            </div>
+            <footer class="profile-footer"><span id="profile-start">开浇 —</span><b id="profile-duration">持续 —</b></footer>
+          </article>
+
+          <article class="panel corner">
+            <header class="panel-heading"><h2>浇筑进度</h2><span>理论 / 实测 / 初凝</span></header>
+            <div class="progress-layout">
+              <div id="progress-chart" class="chart"></div>
+              <div class="progress-data">
+                <p><i class="cyan"></i><span>理论高度</span><b id="progress-theory">— m</b></p>
+                <p><i class="green"></i><span>实测高度</span><b id="progress-actual">— m</b></p>
+                <p><i class="amber"></i><span>初凝高度</span><b id="progress-curing">— m</b></p>
+                <small id="progress-note">等待实时数据</small>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel corner chart-panel">
+            <header class="panel-heading">
+              <h2>浇筑速度</h2>
+              <div class="segmented">
+                <button class="active" data-speed="both">对比</button>
+                <button data-speed="actual">实测</button>
+                <button data-speed="theory">理论</button>
+              </div>
+            </header>
+            <div id="speed-chart" class="chart grow"></div>
+          </article>
+        </div>
+
+        <div class="column center-column">
+          <article class="panel corner kpi-panel">
+            <div class="kpi"><small>理论进度</small><b><span id="kpi-theory">0</span><em>%</em></b><p id="kpi-theory-sub">—</p></div>
+            <div class="kpi"><small>实际进度</small><b><span id="kpi-actual">0</span><em>%</em></b><p id="kpi-actual-sub">—</p></div>
+            <div class="kpi"><small>累计方量</small><b><span id="kpi-volume">0</span><em>m³</em></b><p id="kpi-volume-sub">—</p></div>
+            <div class="kpi"><small>充盈系数</small><b><span id="kpi-fill">0</span><em>λ</em></b><p id="kpi-fill-sub">正常 1.00–1.20</p></div>
+            <div class="kpi"><small>实时泵压</small><b><span id="kpi-pressure">0</span><em>MPa</em></b><p id="kpi-pressure-sub">—</p></div>
+          </article>
+
+          <article class="panel corner section-panel">
+            <header class="panel-heading floating"><h2>深槽纵向施工剖面</h2><span id="visual-subtitle">槽段 — · 高程基准</span></header>
+            <div class="section-canvas">
+              <div id="depth-scale" class="depth-scale"></div>
+              <div class="trench-scene" aria-label="防渗墙真实地层施工剖面">
+                <img class="strata-texture" src="./assets/legacy/geology-strata.jpg" alt="地层剖面纹理">
+                <div class="scene-shade" aria-hidden="true"></div>
+                <img id="scene-concrete" class="scene-concrete" src="./assets/legacy/concrete-wall.jpg" alt="已浇筑混凝土墙体">
+                <img id="scene-pipe-j1" class="scene-pipe joint scene-pipe-j1" src="./assets/legacy/joint-pipe.png" alt="接头管1">
+                <img id="scene-pipe-t1" class="scene-pipe tremie scene-pipe-t1" src="./assets/legacy/tremie-pipe.png" alt="浇筑管1">
+                <img id="scene-pipe-t2" class="scene-pipe tremie scene-pipe-t2" src="./assets/legacy/tremie-pipe.png" alt="浇筑管2">
+                <img id="scene-pipe-t3" class="scene-pipe tremie scene-pipe-t3" src="./assets/legacy/tremie-pipe.png" alt="浇筑管3">
+                <img id="scene-pipe-j2" class="scene-pipe joint scene-pipe-j2" src="./assets/legacy/joint-pipe.png" alt="接头管2">
+                <div id="scene-theory-line" class="scene-surface theory"><span id="scene-theory-label">理论 — m</span></div>
+                <div id="scene-actual-line" class="scene-surface actual"><span id="scene-actual-label">实测 — m</span></div>
+                <div id="scene-curing-line" class="scene-surface curing"><span id="scene-curing-label">初凝 — m</span></div>
+                <div class="strata-tags" aria-hidden="true"><span>粉质黏土</span><span>砂卵石层</span><span>强风化岩</span></div>
+                <div class="scene-dimensions"><span>宽度 <b id="scene-width">— m</b></span><span>厚度 <b id="scene-thickness">— m</b></span></div>
+              </div>
+              <div class="visual-legend"><span><i class="theory"></i>理论面</span><span><i class="actual"></i>实测浇筑面</span><span><i class="curing"></i>初凝面</span><span><i class="tremie"></i>金属管体</span></div>
+              <div class="visual-readout">
+                <p><span>理论高度</span><b id="visual-theory">— m</b></p>
+                <p><span>实测高度</span><b id="visual-actual">— m</b></p>
+                <p><span>初凝高度</span><b id="visual-curing">— m</b></p>
+                <p><span>理论 / 实测偏差</span><b id="visual-diff">— m</b></p>
+              </div>
+            </div>
+          </article>
+
+          <div class="lower-charts">
+            <article class="panel corner chart-panel"><header class="panel-heading"><h2>累计浇筑方量</h2><span>m³</span></header><div id="volume-chart" class="chart grow"></div></article>
+            <article class="panel corner chart-panel"><header class="panel-heading"><h2>泵压实时趋势</h2><span>MPa · 最近 60 min</span></header><div id="pressure-chart" class="chart grow"></div></article>
+          </div>
+        </div>
+
+        <div class="column right-column">
+          <article class="panel corner">
+            <header class="panel-heading"><h2>安全态势</h2><span>SAFETY STATUS</span></header>
+            <div class="health-layout">
+              <div id="health-score" class="health-score"><b>0<small>分</small></b></div>
+              <div class="health-data">
+                <p><span>运行状态</span><b id="health-state">—</b></p>
+                <p><span>当前告警</span><b id="health-alarm">0 项</b></p>
+                <p><span>数据完整率</span><b id="health-data">0%</b></p>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel corner">
+            <header class="panel-heading"><h2>管体安全预警</h2><span>四态警示灯判定</span></header>
+            <table class="pipe-table">
+              <thead><tr><th>管体</th><th>当前深度</th><th>关键差值</th><th>状态</th></tr></thead>
+              <tbody id="pipe-table-body"></tbody>
+            </table>
+            <p class="rule-note">浇筑管 2–6 m 正常；接头管距初凝面 0–0.5 m 正常。</p>
+          </article>
+
+          <article class="panel corner event-panel">
+            <header class="panel-heading"><h2>实时事件</h2><span id="alarm-count">0 条未闭环</span></header>
+            <div class="event-head"><span>级别</span><span>时间</span><span>事件</span><span>测值</span></div>
+            <div class="event-viewport"><ul id="alarm-list"></ul></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="view-workspace" class="tab-view workspace-view" data-tab-view="workspace" hidden aria-hidden="true">
+        <article class="workspace-shell panel corner">
+          <header class="workspace-header">
+            <div>
+              <h2 id="workspace-title">功能页面</h2>
+              <small id="workspace-subtitle">MANAGEMENT</small>
+            </div>
+            <div class="workspace-context"><span>当前槽段</span><b id="workspace-slot">—</b></div>
+          </header>
+          <div id="workspace-body" class="workspace-body"></div>
+        </article>
+      </section>
+      <div id="toast" class="toast" role="status"></div>
+    </main>
+  </div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

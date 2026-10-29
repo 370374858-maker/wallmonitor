@@ -1,0 +1,24 @@
+{
+  "name": "diaphragm-wall-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node --watch server/app.js",
+    "db:init": "node scripts/init-db.mjs",
+    "db:workbench": "node scripts/init-db.mjs",
+    "db:migrate-events": "node scripts/migrate-events.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "echarts": "^5.6.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3",
+    "three": "0.185.1"
+  }
+}

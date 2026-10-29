@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>登录 · 超深防渗墙浇筑质量智能控制平台</title>
+  <link rel="stylesheet" href="/login/login.css">
+  <script type="module" src="/login/login.js"></script>
+</head>
+<body>
+  <header><img src="/assets/brand/powerchina-horizontal.png" alt="中国电建"></header>
+  <main>
+    <h1>超深防渗墙浇筑质量<br>智能控制平台</h1>
+    <section class="login-panel" aria-labelledby="login-title">
+      <h2 id="login-title">账号登录</h2>
+      <form id="login-form">
+        <fieldset disabled>
+          <label for="username">账号</label>
+          <input id="username" name="username" autocomplete="username" maxlength="128" required placeholder="请输入账号">
+          <label for="password">密码</label>
+          <div class="password-field">
+            <input id="password" name="password" type="password" autocomplete="current-password" maxlength="1024" required placeholder="请输入密码">
+            <button type="button" id="show-password" aria-label="显示密码" aria-pressed="false">显示</button>
+          </div>
+        </fieldset>
+        <button class="primary" type="submit" id="submit" disabled>登录</button>
+      </form>
+      <p id="message" role="status" aria-live="polite">正在连接登录服务…</p>
+      <button id="logout" type="button" hidden>退出登录</button>
+    </section>
+  </main>
+</body>
+</html>

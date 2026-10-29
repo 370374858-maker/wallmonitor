@@ -1,0 +1,90 @@
+#notice.app-notice:not([hidden]),
+.revision-dialog [data-dialog-notice].app-notice:not([hidden]) {
+  position: absolute;
+  z-index: 120;
+  top: 150px;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  width: min(560px, calc(100% - 48px));
+  min-width: 0;
+  max-width: 560px;
+  max-height: min(240px, calc(100% - 180px));
+  margin: 0;
+  padding: 14px 52px 14px 18px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: translateX(-50%);
+  border: 1px solid #3a819e;
+  border-radius: 5px;
+  background: rgba(10, 48, 78, .98);
+  color: #dff5ff;
+  box-shadow: 0 10px 32px rgba(0, 8, 24, .5);
+  font-size: var(--font-body, 14px);
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  scrollbar-width: thin;
+}
+#screen > #notice.app-notice:not([hidden]) {
+  top:108px;
+  left: calc(232px + (100% - 232px) / 2);
+  width:min(560px, calc(100% - 280px));
+}
+#notice.app-notice--success:not([hidden]) { border-color:#3a9b81; background:rgba(19, 68, 68, .98); color:#c9f6e7; }
+#notice.app-notice--warning:not([hidden]) { border-color:#b08a45; background:rgba(65, 52, 29, .98); color:#ffe0a3; }
+#notice.app-notice--error:not([hidden]),.revision-dialog .app-notice--error:not([hidden]) { border-color:#b75c66; background:rgba(75, 34, 47, .99); color:#ffd2d7; }
+.app-notice__message { display:block; min-width:0; }
+.revision-error {
+  max-height:min(240px, 40vh);
+  overflow-x:hidden;
+  overflow-y:auto;
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+}
+#notice .app-notice__close,.revision-dialog .app-notice__close {
+  position:absolute;
+  top:8px;
+  right:10px;
+  display:grid;
+  width:32px;
+  height:32px;
+  margin:0;
+  padding:0;
+  place-items:center;
+  border:0;
+  border-radius:4px;
+  background:transparent;
+  color:inherit;
+  font-size:24px;
+  line-height:1;
+  cursor:pointer;
+}
+#notice .app-notice__close:hover { background:rgba(255,255,255,.1); }
+#notice .app-notice__close:focus-visible { outline:2px solid currentColor; outline-offset:1px; }
+.monitor-embedded #notice.app-notice:not([hidden]) {
+  position:fixed;
+  top:72px;
+  left:50%;
+  right:auto;
+  bottom:auto;
+  width:min(560px, calc(100vw - 48px));
+  min-width:0;
+  max-width:560px;
+  max-height:180px;
+  pointer-events:auto;
+}
+@media (max-width: 720px) {
+  #notice.app-notice:not([hidden]),
+  #screen > #notice.app-notice:not([hidden]) {
+    left:50%;
+    width:calc(100% - 32px);
+    min-width:0;
+    max-width:none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #notice.app-notice:not([hidden]) { scroll-behavior:auto; }
+}
+#screen:has(.record-page:not([hidden])) > #notice.app-notice:not([hidden]) { top:160px; }
+.revision-dialog [data-dialog-notice].app-notice:not([hidden]) { position:absolute;top:70px;max-height:180px; }

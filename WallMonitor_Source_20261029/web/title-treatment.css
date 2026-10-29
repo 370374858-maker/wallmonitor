@@ -1,0 +1,25 @@
+:root {
+  --section-title-start:#9bddff;
+  --section-title-middle:#d0ffff;
+  --section-title-end:#91ffe0;
+  --section-title-gradient:linear-gradient(105deg,var(--section-title-start),var(--section-title-middle) 52%,var(--section-title-end));
+}
+#screen :is(h2,h3,legend),.monitor-embedded :is(h2,h3,legend) { color:#c2f5ff; }
+#screen :is(h2,h3),.monitor-embedded :is(h2,h3) { width:fit-content;max-width:100%; }
+@supports (background-clip:text) {
+  #screen :is(h2,h3,legend),.monitor-embedded :is(h2,h3,legend) {
+    background-image:var(--section-title-gradient);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow:none;
+  }
+  :is(#screen,.monitor-embedded) :is(h2,h3,legend) :is(small,span,button) {
+    -webkit-text-fill-color:currentColor;
+  }
+}
+@media (forced-colors:active) {
+  #screen :is(h2,h3,legend),.monitor-embedded :is(h2,h3,legend) {
+    background:none;color:CanvasText;-webkit-text-fill-color:CanvasText;
+  }
+}

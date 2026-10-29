@@ -1,0 +1,13 @@
+:root{--console-surface:linear-gradient(125deg,#14365ce8,#0e284de8);--console-border:#2b6089;--console-rule:#28557b;--console-heading:#e6f7ff;--console-copy:#c0d8f0;--console-muted:#89aecb;--console-value:#edfaff;--console-accent:#27d9ff;--console-gap:14px}
+.console-toolbar{height:56px;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 16px;background:var(--console-surface);border:1px solid var(--console-border);border-radius:3px}
+.context-controls{display:flex;align-items:center;gap:12px;font-size:var(--font-body);color:var(--console-muted)}
+.console-toolbar select,.console-toolbar button{height:34px;font-size:var(--font-body);padding:5px 12px}
+.console-toolbar .tools{font-size:var(--font-body)}
+.console-toolbar select[data-slot-picker]{width:150px;font-size:var(--font-section);font-weight:var(--font-strong)}
+.table-pagination{height:38px;min-height:38px;display:flex;align-items:center;justify-content:flex-end;gap:12px;font-size:var(--font-meta);color:var(--console-muted)}
+.table-pagination button{min-width:72px;height:28px;padding:2px 10px;font-size:var(--font-meta)}
+.table-pagination button:disabled{opacity:.4;cursor:default}
+.snapshot-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:12px 4px;border-top:1px solid var(--console-rule)}
+.snapshot-values small{display:block;font-size:var(--font-body);color:var(--console-muted);margin-bottom:6px}
+.snapshot-values b{font-size:var(--font-page);color:var(--console-value);font-weight:var(--font-strong)}
+.snapshot-values em{font-style:normal;font-size:var(--font-meta);color:var(--console-muted);margin-left:4px}

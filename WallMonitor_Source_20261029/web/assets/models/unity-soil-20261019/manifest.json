@@ -1,0 +1,262 @@
+{
+  "sourceProject": "Beta0730",
+  "sourceScene": "Assets/Scenes/SampleScene.unity",
+  "sourceLayerDepth": 220,
+  "opaque": true,
+  "geometry": "Rebuilt Unity cube layers around the existing trench; no FBX conversion required",
+  "layers": [
+    {
+      "id": "soil1",
+      "weight": 12,
+      "tileMeters": 3.2,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.992,
+        0.953,
+        0.82
+      ],
+      "maps": {
+        "albedo": "/assets/models/unity-soil-20261019/44a48fe88ad4f5844b6d1672bf702e4f-albedo.webp",
+        "normal": "/assets/models/unity-soil-20261019/22da1a499fabde34888dba098e5c9d50-normal.webp",
+        "ao": "/assets/models/unity-soil-20261019/08abe4ebe80f2a8419b792acb0d20542-ao.webp"
+      },
+      "sourceWeight": 12,
+      "sourceColor": [
+        0.99056596,
+        0.9430876,
+        0.7803044
+      ],
+      "label": "4 含漂砂卵砾石"
+    },
+    {
+      "id": "soil2",
+      "weight": 47,
+      "tileMeters": 3.0,
+      "offset": [
+        0.173,
+        0.237
+      ],
+      "color": [
+        0.87,
+        0.88,
+        0.89
+      ],
+      "maps": {
+        "albedo": "/assets/models/unity-soil-20261019/f4ed305362918144e97c242b8301811e-albedo.webp",
+        "normal": "/assets/models/unity-soil-20261019/bedfc1b580f2a5f4d9bc40c2d7872747-normal.webp",
+        "ao": "/assets/models/unity-soil-20261019/74968bcc596691b4fab1a164c84c1d5a-ao.webp"
+      },
+      "sourceWeight": 50,
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "label": "3-3 含砾中粗砂"
+    },
+    {
+      "id": "soil3",
+      "weight": 13,
+      "tileMeters": 2.7,
+      "offset": [
+        0.346,
+        0.474
+      ],
+      "color": [
+        0.89,
+        0.89,
+        0.92
+      ],
+      "maps": {
+        "albedo": "/assets/models/unity-soil-20261019/573734e01a86b9d40b6c8dc8d74a1932-albedo.webp",
+        "normal": "/assets/models/unity-soil-20261019/6de787b941a84ab47aa819718eab2994-normal.webp"
+      },
+      "sourceWeight": 10,
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "label": "3-2-2 黏质粉土"
+    },
+    {
+      "id": "soil4",
+      "weight": 10,
+      "tileMeters": 2.7,
+      "offset": [
+        0.5189999999999999,
+        0.711
+      ],
+      "color": [
+        0.88,
+        0.89,
+        0.9
+      ],
+      "maps": {
+        "albedo": "/assets/models/unity-soil-20261019/59340c34796aba74f821afc78115b91c-albedo.webp",
+        "normal": "/assets/models/unity-soil-20261019/1ca8aa938472ee44881646574d844978-normal.webp"
+      },
+      "sourceWeight": 10,
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "label": "3-2-1 粉质黏土"
+    },
+    {
+      "id": "soil5",
+      "weight": 138,
+      "tileMeters": 3.7,
+      "offset": [
+        0.692,
+        0.948
+      ],
+      "color": [
+        0.7,
+        0.72,
+        0.74
+      ],
+      "maps": {
+        "albedo": "/assets/models/unity-soil-20261019/f4ed305362918144e97c242b8301811e-albedo.webp",
+        "normal": "/assets/models/unity-soil-20261019/bedfc1b580f2a5f4d9bc40c2d7872747-normal.webp",
+        "ao": "/assets/models/unity-soil-20261019/74968bcc596691b4fab1a164c84c1d5a-ao.webp"
+      },
+      "sourceWeight": 138,
+      "sourceColor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "label": "3-1 含砾中粗砂"
+    }
+  ],
+  "textures": [
+    {
+      "file": "44a48fe88ad4f5844b6d1672bf702e4f-albedo.webp",
+      "role": "albedo",
+      "bytes": 2446150,
+      "sha256": "e1ef3468cab04760ea4baf6bf4bf5ddf0f17c5149dfa2a928a37dcb2e4f43a7c",
+      "source": "WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_Albedo.png",
+      "sourceSha256": "166b23583da34d927e182b6177fb23ba5cfd3118648a141850458a2057550ba0",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "file": "22da1a499fabde34888dba098e5c9d50-normal.webp",
+      "role": "normal",
+      "bytes": 690202,
+      "sha256": "b0d6d460cc6bd4996ddc0ef2ebeb3136ff5fa77496d73df0c4b84e401ac7962a",
+      "source": "WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_YFliped_normal.png",
+      "sourceSha256": "33e4f6fdd748962c4e10eb262b678e74f184ffbfed139648177a08b520897c4f",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "08abe4ebe80f2a8419b792acb0d20542-ao.webp",
+      "role": "ao",
+      "bytes": 687056,
+      "sha256": "d77075c34df8555313bc90d116e96724bce44d35b7391b9964e58755c750aab3",
+      "source": "WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_ao.png",
+      "sourceSha256": "fafaa1a800a1e3a85aa0ae62298d0470600cdbd9a6228108974ab94d596a9cb5",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "f4ed305362918144e97c242b8301811e-albedo.webp",
+      "role": "albedo",
+      "bytes": 2081786,
+      "sha256": "bc8fd01ec94632a3b23e0bf9f86de4c7c234aaf48fdeae678c66dcd9d5744729",
+      "source": "WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_Albedo.png",
+      "sourceSha256": "84acbdaba228ec6995c6c1815e55c049ee97e6cb42d802c40f45aaf6c49c2374",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "file": "bedfc1b580f2a5f4d9bc40c2d7872747-normal.webp",
+      "role": "normal",
+      "bytes": 546700,
+      "sha256": "b59838993329c365b0251411b8600df1ed15ae0234b3cb67c3fbad2ade4a5023",
+      "source": "WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_YFliped_normal.png",
+      "sourceSha256": "2fb4066b12cb10491494c42619c31ab70dbd19f31f719972d751d9b2115e0793",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "74968bcc596691b4fab1a164c84c1d5a-ao.webp",
+      "role": "ao",
+      "bytes": 525170,
+      "sha256": "8962592837d6256000f1a728376113bdee6683a6c75cf77d9c9beb2e2ed96a57",
+      "source": "WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_ao.png",
+      "sourceSha256": "15e0dbcd84337aa7c0bf947b8ff47b3f2cb302d5b8c178dc60514bcd7eca6ce7",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "573734e01a86b9d40b6c8dc8d74a1932-albedo.webp",
+      "role": "albedo",
+      "bytes": 613250,
+      "sha256": "a10a493dc24cf5caa1db415cf21d6732624601fec0a171953e0c9f7b4f80817d",
+      "source": "Sand textures pack/Sand 03/diffuse.tga",
+      "sourceSha256": "2345b6992d02cfba0d767d30dfddedf1f689c53b4724d86fc1171cfd2c2b4c61",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "6de787b941a84ab47aa819718eab2994-normal.webp",
+      "role": "normal",
+      "bytes": 206002,
+      "sha256": "a7c943d11228cf61f47a92789e199b5ad072d3cf596252213be78bc0c0026656",
+      "source": "Sand textures pack/Sand 03/normal.tga",
+      "sourceSha256": "5cb3281dc27b6404fe016b84b397fba16c41e35a096594a4c4ee818368b5b277",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "59340c34796aba74f821afc78115b91c-albedo.webp",
+      "role": "albedo",
+      "bytes": 476002,
+      "sha256": "dd681526f10d2b2c34ec51a953d64a09c3dcf8f64a3d8cb6083ec44fd5359c25",
+      "source": "Sand textures pack/Sand 07/diffuse.tga",
+      "sourceSha256": "249edade9b82c3ca072d32d01655e71d49db894279d2d37e56f598406736463b",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "1ca8aa938472ee44881646574d844978-normal.webp",
+      "role": "normal",
+      "bytes": 282500,
+      "sha256": "fe5e7cbd16ba140b2bb94939367ff3101ed29f392b629f72971bf0269dd0edfa",
+      "source": "Sand textures pack/Sand 07/normal.tga",
+      "sourceSha256": "01726b6aeead3db582722826442d0eeb58659544a7307c6e73dd019a77271f2d",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "displayRevision": "20261019-hidden-labels",
+  "displayNotes": "Soil names temporarily hidden; restore original model framing without soil-name margins. Warm soil1, cavity tint and horizontal toolbar retained.",
+  "soilLabelsVisible": false
+}

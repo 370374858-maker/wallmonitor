@@ -1,0 +1,49 @@
+{
+  "style": "client-20261022",
+  "tool": "built-in image_gen edit",
+  "atlas": "soil-atlas.png",
+  "atlasSize": [
+    1122,
+    1402
+  ],
+  "rowsTopToBottom": [
+    "砂卵砾石",
+    "含砾粗中砂",
+    "黏质粉土",
+    "粉质黏土",
+    "含砾中粗砂"
+  ],
+  "cropGuardPixels": 3,
+  "preserveThicknessWeights": [
+    12,
+    47,
+    13,
+    10,
+    138
+  ],
+  "originalStyle": "unity-original",
+  "originalAssets": "../unity-soil-20261019/",
+  "notes": "Reference-based edited texture. Source images are archived unchanged. Runtime crops each row, excludes guards and corrects texture aspect ratio.",
+  "files": [
+    {
+      "sha256": "7a668e508b170460ad8e3208b116edc23fdc71e875f18894337ec4ed0c6327c1",
+      "bytes": 4358473,
+      "file": "soil-atlas.png"
+    },
+    {
+      "sha256": "1c873f5740a296af93e8022f66e20f61361847205b3a4bbfa4fe7b20a875aa63",
+      "bytes": 370286,
+      "file": "source-layer-reference.png"
+    },
+    {
+      "sha256": "98ffedaa856523956ec76f9793d1dc7dead6fe69abdeb0d2e1c3192d67a05a17",
+      "bytes": 1465484,
+      "file": "source-section-with-sky.jpg"
+    },
+    {
+      "sha256": "2d10c99566934df0281c775e8668d2aafe4826a7da5d7ac6ddef55fed6393d90",
+      "bytes": 1819,
+      "file": "edit-prompt.txt"
+    }
+  ]
+}

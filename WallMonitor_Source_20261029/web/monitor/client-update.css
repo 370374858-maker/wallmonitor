@@ -1,0 +1,81 @@
+.overview-grid .left-column{grid-template-rows:460px minmax(0,1fr) minmax(0,1fr);gap:14px;min-width:0}
+.overview-grid .right-column{grid-template-rows:96px 280px 268px minmax(0,1fr)}
+.overview-grid .progress-content{display:grid;grid-template-columns:112px minmax(0,1fr);gap:10px;align-items:center;justify-content:normal;padding:4px}
+.overview-grid #progress-chart{width:112px;height:112px;min-height:112px}
+.overview-grid #progress-readings{display:grid;grid-template-columns:1fr;gap:6px}
+.overview-grid #progress-readings>div{padding:2px 0 6px;border-bottom:1px solid #28557b}
+.overview-grid #progress-readings>div:last-child{border:0}
+.overview-grid #progress-readings small{font-size:12px;margin-bottom:3px}
+.overview-grid #progress-readings b{font-size:20px}.overview-grid #progress-readings em{font-size:11px}
+.overview-grid .progress-panel .panel-heading>span{font-size:10px}
+.warning-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;min-height:0}
+.warning-grid>.panel{min-height:0}.warning-grid .chart{min-height:0;flex:1}
+.pressure-panel .speed-status span{min-width:0;font-size:12px;text-align:center}
+.pipe-safety-panel{min-height:0;min-width:0;overflow:hidden}.pipe-safety-panel .panel-heading{margin-bottom:3px}
+.pipe-safety{min-height:0;min-width:0;flex:1;display:flex;flex-direction:column}
+.pipe-scroll{min-height:0;flex:1;overflow-x:auto;overflow-y:auto;scrollbar-width:none;overscroll-behavior-x:contain}
+.pipe-scroll::-webkit-scrollbar{display:none}
+.pipe-safety table{table-layout:fixed;width:calc(var(--summary-width,320px) + 440px);min-width:calc(var(--summary-width,320px) + 440px)}
+.pipe-safety col.pipe-summary-name{width:calc(var(--summary-width,320px) * .40)}
+.pipe-safety col.pipe-summary-status{width:calc(var(--summary-width,320px) * .30)}
+.pipe-safety col.pipe-extra{width:110px}
+.pipe-safety thead th{height:22px;font-size:11px;white-space:nowrap}
+.pipe-safety th,.pipe-safety td{height:26px;padding:2px 3px;white-space:nowrap;text-align:center}
+.pipe-safety tbody tr{height:26px}.pipe-safety tbody th{font-size:12px}.pipe-safety .data-value{font-size:14px}
+.pipe-safety .status-label{font-size:11px}.pipe-safety .pipe-status small{font-size:9px}
+.pipe-safety th:first-child,.pipe-safety th:last-child{width:auto}
+.pipe-scroll-range{display:block;flex:none;width:100%;height:13px;margin:4px 0 0;accent-color:#41b9ee;cursor:ew-resize}
+.pipe-marker.tremie{background:#bb6f55}.pipe-marker.joint{background:#b4c4ce}
+.settings-page #policy-fields{overflow:auto;padding-right:8px;flex:1;min-height:0}
+.settings-page .policy-grid{flex:none;grid-template-rows:none;grid-auto-rows:auto;align-content:start}
+.settings-page .policy-form fieldset{min-height:0}
+.tremie-position-config{display:flex;flex-direction:column;gap:12px;min-width:0}
+.event-pipe-row:has([name^="pressure-"]){display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:700px){.overview-grid .left-column{display:flex;flex-direction:column}.progress-panel{min-height:180px}.pipe-safety-panel{min-height:245px}.warning-grid{grid-template-columns:1fr}.warning-grid .panel{min-height:260px}.depth-fill-panel{min-height:300px}}
+.overview-grid .left-column{grid-template-rows:340px minmax(0,1fr) minmax(0,1fr)}
+.overview-grid .right-column{grid-template-rows:repeat(4,minmax(0,1fr))}
+.overview-grid .slot-plan{flex:1;min-height:0}.overview-grid .slot-plan svg{max-height:160px}
+.overview-grid .slot-profile{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 6px;margin-top:8px}
+.overview-grid .slot-profile>div{min-width:0;padding:0 2px 6px}
+.overview-grid .slot-profile>div:nth-last-child(-n+3){border-bottom:0;padding-bottom:0}
+.overview-grid .slot-profile small{font-size:12px;white-space:nowrap}
+.overview-grid .slot-profile b{font-size:24px}.overview-grid .slot-profile em{font-size:11px}
+.overview-grid .progress-content{grid-template-columns:156px minmax(0,1fr);gap:8px}
+.overview-grid #progress-chart{width:156px;height:156px;min-height:156px}
+.overview-grid #progress-readings small{font-size:12px}.overview-grid #progress-readings b{font-size:24px}
+.overview-grid .key-data-panel{display:flex;flex-direction:column;min-height:0}
+.overview-grid #headline{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:10px;flex:1;min-height:0}
+.overview-grid .headline-card{min-width:0;padding:10px 8px;display:flex;flex-direction:column;justify-content:center}
+.overview-grid .headline-card small{font-size:13px}.overview-grid .headline-card b{font-size:23px;letter-spacing:0}
+.overview-grid .headline-card em{font-size:10px}.overview-grid .headline-card .metric-value{margin-top:5px;white-space:nowrap}
+.overview-grid .headline-card .metric-status{position:static;font-size:10px;display:flex;gap:4px;margin-top:3px}
+.overview-grid .headline-card:has(.metric-status)>small{padding-right:0}
+.overview-grid .headline-card .metric-status .metric-history{font-size:9px}
+.overview-grid .pipe-safety-panel{display:flex;flex-direction:column}
+.overview-grid .pipe-safety table{width:max(100%,740px);min-width:740px}
+.overview-grid .pipe-safety thead th{font-size:12px}.overview-grid .pipe-safety tbody th{font-size:13px}
+.overview-grid .pipe-safety th,.overview-grid .pipe-safety td{height:27px}
+.overview-grid .pipe-safety .status-label{font-size:12px}
+.overview-grid .pipe-safety .pipe-scroll-range{height:10px;margin-top:2px}
+.pipe-marker.tremie{background:#a58273}
+@media(max-width:700px){.overview-grid .right-column{grid-template-rows:none;grid-auto-rows:minmax(240px,auto)}.overview-grid #headline{min-height:210px}}
+.overview-grid .left-column{grid-template-rows:340px minmax(0,1fr) 230px}
+.overview-grid .key-data-panel{padding:0;border:0;background:none;box-shadow:none}
+.overview-grid .progress-content{grid-template-columns:180px minmax(0,1fr);gap:18px}
+.overview-grid #progress-chart{width:180px;height:180px;min-height:180px}
+.overview-grid #progress-readings>div:not(:last-child){border-bottom:1px solid #28557b;padding-bottom:8px}
+.overview-grid .pipe-safety table{width:100%;min-width:0;table-layout:fixed}
+.overview-grid .pipe-safety col.pipe-name-column{width:20%}
+.overview-grid .pipe-safety col.pipe-value-column{width:16%}
+.overview-grid .pipe-safety col.pipe-status-column{width:16%}
+.overview-grid .pipe-safety tbody th{font-size:14px}
+.overview-grid .pipe-safety .data-value{font-size:16px}
+.overview-grid .pipe-safety .status-label{font-size:13px}
+.overview-grid .pipe-safety th,.overview-grid .pipe-safety td{padding:3px 5px;height:27px}
+.pipe-marker.tremie{background:#b792ef}.pipe-marker.joint{background:#e3c278}
+.sidebar nav #tab-policy[hidden]{display:none!important}
+
+.sidebar-status dt{flex:none;white-space:nowrap}
+.sidebar-status dd{min-width:0}
+.sidebar-status dl .latest-data-row{display:flex;align-items:baseline;gap:4px}
+.sidebar-status #sidebar-time{margin:0;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:0}

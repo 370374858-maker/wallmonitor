@@ -1,0 +1,49 @@
+{
+  "sourceProject": "E:/Codex三维建模/高土层与混凝土_米制平铺版",
+  "assets": [
+    {
+      "file": "S13.glb",
+      "source": "土层_GLB/30m/S13_节理化花岗岩_30m.glb",
+      "bytes": 1143792,
+      "sha256": "33de522e207e398c75d3ba1b1f3640c3e3c6d9cbd7a4fe48a3a6e09c69878f29"
+    },
+    {
+      "file": "S12.glb",
+      "source": "土层_GLB/30m/S12_强风化破碎岩_30m.glb",
+      "bytes": 813980,
+      "sha256": "815139e1cf49de19a6ff335d48ec712dce0fc054e71b2b6567e891cac38418d2"
+    },
+    {
+      "file": "S08.glb",
+      "source": "土层_GLB/30m/S08_含漂石砂卵砾石_30m.glb",
+      "bytes": 548288,
+      "sha256": "1fe3d02b8b6acdc4003f9f68f18df30d495e49dbc6834a3de75b4513ac878982"
+    },
+    {
+      "file": "S07.glb",
+      "source": "土层_GLB/30m/S07_砂卵砾石层_30m.glb",
+      "bytes": 592676,
+      "sha256": "cb5ccd12e5e218e0e38b7fb0757bb77b41a273867d50ebe2eca7e28b40daaf00"
+    },
+    {
+      "file": "S04.glb",
+      "source": "土层_GLB/30m/S04_细砂_30m.glb",
+      "bytes": 584324,
+      "sha256": "75ae40ca5985a9f53f9d5c67c02a763ce471c3ee99c118dc27b7b3f4d7ed7b5a"
+    },
+    {
+      "file": "S05.glb",
+      "source": "土层_GLB/30m/S05_中粗砂_30m.glb",
+      "bytes": 647212,
+      "sha256": "06032c5528ddf1da5ed5eeb4fb7ee5f5738c7cba9c330f8232a47687ec07ab6e"
+    },
+    {
+      "file": "C01.glb",
+      "source": "混凝土_GLB/C01_浅灰细腻.glb",
+      "bytes": 541132,
+      "sha256": "fff3375bf891a30503aff08fa365c3d750b2766377f3183d4d57ef004dcc4f44"
+    }
+  ],
+  "concreteUsage": "C01 materials on the measured, semicircle-deducted slot profile; source GLB stays unchanged",
+  "soilUsage": "Six illustrative strata; not a site investigation log. S13 darkening is display-only."
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <link rel="stylesheet" href="/ui/auth-session.css"><script type="module" src="/ui/auth-session.js"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark"><title>超深防渗墙浇筑质量智能控制平台</title>
+  <link rel="stylesheet" href="/typography.css"><link rel="stylesheet" href="/monitor/styles.css"><link rel="stylesheet" href="/monitor/refined.css">
+  <link rel="stylesheet" href="/models/model-scene.css">
+  <link rel="stylesheet" href="/monitor/control-room.css">
+  <link rel="stylesheet" href="/monitor/blue-console.css">
+  <link rel="stylesheet" href="/console-system.css"><link rel="stylesheet" href="/monitor/workspace-pages.css">
+  <link rel="stylesheet" href="/ui/activity.css">
+  <link rel="stylesheet" href="/ui/form-feedback.css">
+  <link rel="stylesheet" href="/ui/notifications.css">
+  <link rel="stylesheet" href="/workbench/editing.css">
+  <link rel="stylesheet" href="/title-treatment.css"><link rel="stylesheet" href="/monitor/client-update.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three-0.185.1/build/three.module.min.js","three/addons/":"/vendor/three-0.185.1/examples/jsm/"}}</script>
+  <link rel="modulepreload" href="/models/scene-renderer.js">
+  <script defer src="/vendor/echarts.min.js"></script><script type="module" src="/monitor/app.js?v=20261024-demo-data"></script>
+</head>
+<body>
+<div id="screen"><div class="ambient-design" aria-hidden="true"><i></i><i></i><i></i></div>
+  <header class="masthead"><div class="brand"><div class="brand-logos"><img class="brand-logo-partner" src="/assets/brand/powerchina-horizontal.png" alt="中国电建" width="1920" height="530"></div></div><div class="main-title"><h1>超深防渗墙浇筑质量智能控制平台</h1></div><div class="header-right"><div class="header-time"><time id="clock">—</time><small id="date">北京时间 UTC+8</small></div><button id="fullscreen" class="fullscreen-button" aria-label="进入全屏" aria-pressed="false" title="进入全屏"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg></button></div></header>
+  <aside class="sidebar" aria-label="功能导航">
+    <p class="sidebar-label">功能导航</p>
+    <nav role="tablist" aria-label="监控页面" aria-orientation="vertical"><button id="tab-overview" role="tab" aria-selected="true" aria-controls="view-overview" data-view="overview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span class="nav-copy"><b>现场总览</b></span></button><button id="tab-record" role="tab" aria-selected="false" aria-controls="view-record" data-view="record" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H5v18h14V9ZM14 3v6h5M8 13h8M8 17h5"/></svg><span class="nav-copy"><b>施工录入</b></span></button><button id="tab-trends" role="tab" aria-selected="false" aria-controls="view-trends" data-view="trends" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 3v17h17M7 15l4-5 4 2 5-7"/></svg><span class="nav-copy"><b>趋势分析</b></span></button><button id="tab-alerts" hidden role="tab" aria-selected="false" aria-controls="view-alerts" data-view="alerts" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20ZM12 9v5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg><span class="nav-copy"><b>预警处置</b></span><em id="nav-alert-count" hidden></em></button><button id="tab-slot-info" role="tab" aria-selected="false" aria-controls="view-record" data-view="slot-info" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h7l2 3h9v13H3Z"/><path d="M7 12h10M7 16h10"/></svg><span class="nav-copy"><b>槽段信息</b></span></button><button id="tab-policy" role="tab" aria-selected="false" aria-controls="view-policy" data-view="policy" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><rect x="7" y="4" width="3" height="4" fill="currentColor"/><rect x="14" y="10" width="3" height="4" fill="currentColor"/><rect x="9" y="16" width="3" height="4" fill="currentColor"/></svg><span class="nav-copy"><b>预警值设置</b></span></button></nav>
+    <section class="sidebar-status" aria-label="数据服务状态">
+      <h2>数据服务状态</h2><p id="sidebar-connection" class="muted">连接中</p>
+      <p id="data-time-mode" class="time-mode" role="status" hidden></p>
+      <dl><div><dt>当前槽段</dt><dd id="sidebar-slot">—</dd></div><div><dt>已存记录</dt><dd id="sidebar-records">—</dd></div><div class="latest-data-row"><dt>最新数据</dt><dd id="sidebar-time">—</dd></div></dl>
+      
+    </section>
+  </aside>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <main id="main-content">
+    <section id="view-overview" role="tabpanel" aria-labelledby="tab-overview" class="overview-grid">
+      <div class="left-column">
+        <article class="panel slot-panel"><div class="panel-heading slot-heading"><h2>槽段档案</h2><select id="slot" aria-label="切换槽段"><option value="">加载中</option></select></div><div class="slot-plan"><div class="plan-heading"><h3>横截面</h3></div><div id="slot-plan"></div></div><div id="slot-profile" class="slot-profile"></div></article>
+        <article class="panel progress-panel"><div class="panel-heading"><h2>浇筑进度</h2><span>理论 / 实测 / 初凝估计</span></div><div class="progress-content"><div id="progress-chart" class="chart" role="img" aria-label="理论、最近实测与初凝估计三环浇筑进度"></div><div id="progress-readings"></div></div></article>
+        <article class="key-data-panel" aria-label="槽段关键数据"><div id="headline" class="headline" aria-label="槽段关键数据"></div></article>
+      </div>
+      <article class="panel geometry-panel" aria-label="施工槽段模型"><div id="geometry" class="geometry"></div><div class="geometry-legend" title="横向同比例，纵向压缩。土层、管节与初凝面为示意。"><span class="theory-line">理论面</span><span class="actual-line">实测面</span><span class="setting-line">初凝面</span></div></article>
+      <div class="right-column">
+        <article class="panel pipe-safety-panel"><div class="panel-heading"><h2>管体安全预警</h2><span>单位 m</span></div><div id="pipe-safety" class="pipe-safety"></div></article>
+        <article class="panel flex-panel truck-progress-panel"><div class="panel-heading"><h2>浇筑进度曲线</h2><span>高度 / m · 自槽底</span></div><div id="overview-trend" class="chart" role="img" aria-label="按已浇筑方量的理论高度与实测高度，实测高度保持原值，方量按测量时间插值"></div></article>
+
+        <div class="warning-grid"><article class="panel flex-panel"><div class="panel-heading"><h2>浇筑速度预警</h2><span>m/h</span></div><div id="speed-chart" class="chart"></div><div id="speed-status" class="speed-status"></div></article><article class="panel flex-panel pressure-panel"><div class="panel-heading"><h2>接头管实时压力</h2><span>MPa</span></div><div id="pressure-chart" class="chart"></div><div id="pressure-status" class="speed-status"></div></article></div>
+        <article class="panel flex-panel depth-fill-panel"><div class="panel-heading"><h2>不同深度位置扩孔系数</h2><span>测深 / m · 自槽口</span></div><div id="depth-fill-chart" class="chart" role="img" aria-label="按实测深度的扩孔系数，悬浮查看时间与来源"></div></article>
+      </div>
+    </section>
+    <section id="view-record" role="tabpanel" aria-labelledby="tab-record" hidden class="record-page"><div id="entry-feedback" class="entry-feedback" hidden><p id="entry-status" role="status">独立事件录入</p><button id="entry-retry" type="button" hidden>重新加载</button></div><iframe id="record-frame" title="独立施工事件录入" class="record-frame"></iframe></section>
+    <section id="view-trends" role="tabpanel" aria-labelledby="tab-trends" hidden class="detail-page trends-page">
+      <div class="console-toolbar"><div class="context-controls"><label for="trend-slot">槽段</label><select id="trend-slot" data-slot-picker aria-label="趋势分析槽段"></select></div><div class="tools"><label for="range">时间范围</label><select id="range"><option value="all">全部已保存记录</option><option value="24">近 24 小时（评价时刻）</option><option value="72">近 72 小时（评价时刻）</option></select><button id="export">导出 CSV</button></div></div>
+      <div class="trends-workspace trend-grid">
+        <article class="panel flex-panel"><div class="panel-heading"><h2>浇筑进度曲线</h2><span>高度 / m · 自槽底</span></div><div id="trend-depth" class="chart" role="img" aria-label="按已浇筑方量的理论高度与实测高度，悬浮查看时间"></div></article>
+        <article class="panel flex-panel"><div class="panel-heading"><h2>累计浇筑方量</h2><span>m³</span></div><div id="trend-volume" class="chart"></div></article>
+        <article class="panel flex-panel"><div class="panel-heading"><h2>平均上升速度</h2><span>m/h</span></div><div id="trend-speed" class="chart"></div></article>
+        <article class="panel flex-panel"><div class="panel-heading"><h2>扩孔系数</h2><span>无量纲</span></div><div id="trend-fill" class="chart" role="img" aria-label="按实际浇筑高度的扩孔系数，悬浮查看时间"></div></article>
+        <article id="trend-t1-panel" class="panel flex-panel"><div class="panel-heading"><h2>浇筑管 1 埋深</h2><span>m</span></div><div id="trend-t1" class="chart"></div></article>
+        <article id="trend-t2-panel" class="panel flex-panel"><div class="panel-heading"><h2>浇筑管 2 埋深</h2><span>m</span></div><div id="trend-t2" class="chart"></div></article>
+        <article id="trend-t3-panel" class="panel flex-panel"><div class="panel-heading"><h2>浇筑管 3 埋深</h2><span>m</span></div><div id="trend-t3" class="chart"></div></article>
+        <article id="trend-left-panel" class="panel flex-panel"><div class="panel-heading"><h2>左接头管埋深</h2><span>m</span></div><div id="trend-left" class="chart"></div></article>
+        <article id="trend-right-panel" class="panel flex-panel"><div class="panel-heading"><h2>右接头管埋深</h2><span>m</span></div><div id="trend-right" class="chart"></div></article>
+      </div>
+    </section>
+    <section id="view-alerts" role="tabpanel" aria-labelledby="tab-alerts" hidden class="detail-page alerts-page">
+      <div class="console-toolbar"><div class="context-controls"><label for="alert-slot">槽段</label><select id="alert-slot" data-slot-picker aria-label="预警处置槽段"></select></div><span id="alert-version" class="badge"></span></div>
+      <div id="alert-summary" class="alert-summary"></div>
+      <div class="alert-layout"><article class="panel action-panel"><div class="panel-heading"><h2>指标复核与处置</h2><select id="alert-filter" aria-label="筛选预警级别"><option value="all">全部异常</option><option value="danger">预警</option><option value="warn">预报</option></select></div><div id="action-list" class="action-list"></div><div class="table-pagination"><button id="alert-prev">上一页</button><span id="alert-page"></span><button id="alert-next">下一页</button></div></article><article class="panel quality-panel"><div class="panel-heading"><h2>数据与判定依据</h2><span>现场复核</span></div><div id="quality-list" class="quality-list"></div></article></div>
+    </section>
+    <section id="view-policy" role="tabpanel" aria-labelledby="tab-policy" hidden class="detail-page settings-page">
+      <div class="console-toolbar"><div class="context-controls"><label for="policy-slot">槽段</label><select id="policy-slot" data-slot-picker aria-label="预警值设置槽段"></select><span id="settings-slot" class="sr-only">当前槽段 —</span></div><span id="policy-version" class="badge"></span></div>
+      <div class="settings-workspace"><form id="policy-form" class="panel policy-form"><div class="panel-heading"><h2 class="settings-rule-title">槽段评价规则</h2><span>当前槽段生效</span></div><div id="policy-fields"></div><footer><p id="policy-message" role="status"></p><button type="button" id="reload-policy" disabled>重新载入已保存规则</button><button type="submit" id="save-policy" class="primary">保存本槽段规则</button></footer></form><div class="settings-side"><section class="panel display-settings"><div class="panel-heading"><h2>显示与刷新</h2><a class="badge" href="/device-link/" target="_blank" rel="noopener">设备数据联调</a></div><p id="record-counter">—</p><div class="display-actions"><button id="refresh">刷新数据</button><button id="pause" aria-pressed="false">暂停刷新</button><button id="motion" aria-pressed="true">动效开</button></div></section><section class="panel system-messages"><div class="panel-heading"><h2>运行消息</h2></div><div id="message" role="status">正在连接</div></section></div></div>
+    </section>
+  </main>
+</div></body></html>
+

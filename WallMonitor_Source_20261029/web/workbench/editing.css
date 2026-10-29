@@ -1,0 +1,65 @@
+.mode-actions,.row-actions{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.mode-actions .secondary-button{padding:6px 10px;min-height:32px}
+.record-mode-actions{display:flex;align-items:center;gap:8px;flex:none}
+.record-mode-actions .secondary-button{font-size:var(--font-body);min-height:32px;padding:5px 12px;white-space:nowrap}
+.record-mode-actions [aria-pressed=true]{color:var(--console-heading,#e6f7ff);background:#21577b;border-color:#58bada}
+.record-mode-actions [data-choose-edit-record]{border-color:#459cc5;color:#d8f5ff}
+.record-edit-link{color:#86e4ff!important;font-weight:var(--font-strong);text-decoration:underline;text-underline-offset:3px}
+.record-picker-table th:nth-child(1){width:14%}.record-picker-table th:nth-child(2){width:40%}.record-picker-table th:nth-child(3){width:20%}
+.record-picker-table .selected{background:#205071}
+.record-picker-table button{font-size:var(--font-body);min-height:32px;padding:5px 10px;color:#e6f7ff;border-color:#4fa8c9}
+.monitor-embedded #record-form .card-header h2{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.monitor-embedded #record-form .card-header>div:first-child{min-width:0}
+.slot-tremies legend small{margin-left:8px;font-size:var(--font-meta);font-weight:var(--font-regular);color:var(--muted)}
+.revision-dialog{width:min(880px,94vw);max-height:92vh;padding:0;border:1px solid #367298;border-radius:6px;background:#102e50;color:#dcefff;font-family:inherit;box-shadow:0 20px 80px #020d26a0}
+.revision-dialog::backdrop{background:#031329c7}
+.revision-dialog header,.revision-dialog footer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 22px;background:#163d62;border-bottom:1px solid #315a79}
+.revision-dialog header h2{margin:0;font-size:var(--font-section);font-weight:var(--font-strong)}
+.revision-dialog header button{background:none;border:0;color:inherit;font-size:var(--font-page);cursor:pointer}
+.revision-dialog footer{justify-content:flex-end;border-top:1px solid #315a79;border-bottom:0}
+.revision-body{padding:18px 22px;font-size:var(--font-body);line-height:1.6}
+.revision-body p{margin:0 0 14px;color:#acc9df}
+.revision-dialog table{width:100%;border-collapse:collapse;table-layout:fixed}
+.revision-dialog td,.revision-dialog th{text-align:center;padding:8px 10px;border-bottom:1px solid #2b506e;font-size:var(--font-body);overflow-wrap:anywhere}
+.revision-dialog th{color:#aad2e9;background:#153b5d;font-weight:var(--font-strong)}
+.revision-dialog input{width:100%;min-width:0;height:38px;background:#081f3a;border:1px solid #3f708f;color:#e9faff;border-radius:3px;padding:6px 10px;font-size:var(--font-body)}
+.revision-dialog input:focus{outline:2px solid #2bb9e3;outline-offset:1px}
+.revision-dialog a{color:#73d8fa}.revision-dialog button:disabled{opacity:.5;cursor:wait}
+.revision-counts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px}
+.revision-counts>div{background:#143d5f;border:1px solid #2c6586;padding:12px 16px}
+.revision-counts small{display:block;color:#a8c9df;font-size:var(--font-body)}
+.revision-counts b{display:block;font-size:var(--font-page);font-weight:var(--font-strong);color:#e9faff}
+.revision-counts em{font-style:normal;font-size:var(--font-meta)}
+.revision-policy-note{margin:16px 0!important;font-size:var(--font-meta)}
+.revision-error{margin:0;padding:12px 22px;color:#ffb3bb;background:#572736;font-size:var(--font-body);white-space:pre-wrap}
+.revision-error[hidden]{display:none}.reconcile-pages{display:flex;align-items:center;justify-content:center;gap:16px;margin:14px 0 0}
+.monitor-embedded[data-active-tab=slot] .workspace{grid-template-columns:minmax(0,1fr) 420px}
+.monitor-embedded #slot-form>.form-body{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:148px minmax(0,1fr) 124px;gap:16px;padding:18px!important}
+.monitor-embedded #slot-form fieldset{margin:0;padding:18px;min-width:0;border:1px solid var(--console-rule);border-radius:3px}
+.monitor-embedded #slot-form .slot-identity{grid-column:1/-1}
+.monitor-embedded #slot-form legend{padding:0 8px;font-size:var(--font-section)}
+.monitor-embedded #slot-form .inline-control{display:grid;grid-template-columns:auto 100px 1fr;gap:10px;align-items:center;margin:4px 0 22px}
+.monitor-embedded #slot-form .inline-control select{min-width:0;width:100%;height:38px;font-size:var(--font-body)}
+.monitor-embedded #slot-form .inline-control button{text-align:right;margin:0}
+.monitor-embedded #slot-form .slot-tremies .fields.three{display:grid;grid-template-columns:1fr;gap:20px}
+.monitor-embedded #slot-form .slot-tremies .field{display:grid;grid-template-columns:1fr 136px;gap:16px}
+.monitor-embedded #slot-form .joint-config-fields{display:grid;grid-template-columns:1fr;gap:22px}
+.monitor-embedded #slot-form .joint-config-fields>.field{display:grid;grid-template-columns:1fr 136px;align-items:center;gap:8px 16px}
+.monitor-embedded #slot-form .joint-config-fields>.field small{grid-column:1/-1;text-align:right}
+.monitor-embedded #slot-form #joint-initial-fields{display:grid;grid-template-columns:1fr;gap:20px}
+.monitor-embedded #slot-form #joint-initial-fields .field{display:grid;grid-template-columns:1fr 136px;align-items:center;gap:16px}
+.monitor-embedded #slot-form .slot-calculation{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.1fr;gap:18px;min-height:0}
+.monitor-embedded #slot-form .area-summary,.monitor-embedded #slot-form .formula-note{padding:12px 16px}
+.monitor-embedded #slot-form .formula-note p{margin:6px 0;font-size:var(--font-body)}
+.monitor-embedded #slot-form .area-summary{gap:6px 18px;align-content:center}
+.monitor-embedded #slot-form .area-summary b{font-size:var(--font-page)}
+.monitor-embedded .history-list-card td:last-child{padding-inline:5px}
+.monitor-embedded .history-list-card .row-actions{justify-content:center;gap:8px}
+.monitor-embedded .history-list-card .row-actions button{padding:4px;font-size:var(--font-body)}
+.monitor-embedded .history-list-card th:nth-child(6){width:104px}
+.monitor-embedded .history-list-card .row-actions button{min-height:32px;flex-shrink:0}
+.monitor-embedded .history-list-card .table-scroll{overflow:auto}
+.monitor-embedded .history-list-card table{min-width:580px}
+.monitor-embedded .detail-card .card-header>.secondary-button{min-height:30px;padding:5px 12px}
+.monitor-embedded #notice:not([hidden]){top:auto;bottom:76px;left:18px;right:auto;max-width:660px;pointer-events:none}
+.monitor-embedded #notice [data-dismiss-notice]{pointer-events:auto}
